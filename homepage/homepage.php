@@ -208,16 +208,41 @@
                             </div>
                         </div>
                     </div>
-                     <div class="col-12">
-                         <div class="row">
-                             <div class="col-12 text-center">
-                                 <h3 class="text-white">Cold and Hottest Offers</h3>
-                             </div>
-                             <div class="col-12">
-                                 
-                             </div>
-                         </div>
-                     </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h3 class="text-white">Cold and Hottest Offers</h3>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-12 colHotProductsList">
+                                                <div class="row colHotProductsListRow py-4 ">
+                                                    <div class="col-12 colHotSliderItemsDiv ">
+                                                        <div class="colHotSliderItemsImagesDiv">
+                                                            <img class="colHotSliderItemsImages" src="../slideImages/1.png" alt="">
+                                                            <img class="colHotSliderItemsImages" src="../slideImages/2.png" alt="">
+                                                            <img class="colHotSliderItemsImages" src="../slideImages/3.png" alt="">
+                                                            <img class="colHotSliderItemsImages" src="../slideImages/4.png" alt="">
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="arrowIconsDiv">
+
+                                                        <img id="colHotSliderItemsLeftArrow" class="colHotSliderItemsarrowIconDivsLeft" src="../icons/left.png" alt="">
+                                                        <img id="colHotSliderItemsRightArrow" class="colHotSliderItemsarrowIconDivsRight" src="../icons/right.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
