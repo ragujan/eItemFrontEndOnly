@@ -1,0 +1,39 @@
+.coldHotProductsListRow{
+    position: relative;
+}
+.coldHotarrowIconsDiv{
+    
+    position: absolute;
+    top: 35%;
+}
+.coldHotSliderItemsDiv{
+    
+    overflow-x: hidden;
+}
+
+.coldHotSliderItemsarrowIconDivsRight,.coldHotSliderItemsarrowIconDivsLeft{
+    width: 80px;
+   
+    cursor: pointer;
+}
+.coldHotSliderItemsarrowIconDivsRight{
+    padding-top: 0;
+  
+}
+.coldHotSliderItemsarrowIconDivsLeft{
+    padding-top: 0;
+   
+}
+.coldHotSliderItemsImagesDiv {
+
+    display: flex;
+    flex-direction: row;
+  
+   
+}
+.coldHotSliderItemsImages{
+    width: 100%;
+    padding: 0;
+    
+}
+

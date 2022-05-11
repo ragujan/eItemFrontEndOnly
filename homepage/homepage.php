@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../style/homepage.css">
     <link rel="stylesheet" href="../style/imageslider.css">
     <link rel="stylesheet" href="../style/popularSlider.css">
+    <link rel="stylesheet" href="../style/hotpopularslider.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
     <title>HomePage</title>
 </head>
@@ -215,25 +216,25 @@
                             </div>
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-8">
                                         <div class="row">
-                                            <div class="col-12 colHotProductsList">
-                                                <div class="row colHotProductsListRow py-4 ">
-                                                    <div class="col-12 colHotSliderItemsDiv ">
-                                                        <div class="colHotSliderItemsImagesDiv">
-                                                            <img class="colHotSliderItemsImages" src="../slideImages/1.png" alt="">
-                                                            <img class="colHotSliderItemsImages" src="../slideImages/2.png" alt="">
-                                                            <img class="colHotSliderItemsImages" src="../slideImages/3.png" alt="">
-                                                            <img class="colHotSliderItemsImages" src="../slideImages/4.png" alt="">
+                                            <div class="col-12 coldHotProductsList">
+                                                <div class="row coldHotProductsListRow py-4 ">
+                                                    <div class="col-12 coldHotSliderItemsDiv ">
+                                                        <div class="coldHotSliderItemsImagesDiv">
+                                                            <img class="coldHotSliderItemsImages" src="../slideImages/1.png" alt="">
+                                                            <img class="coldHotSliderItemsImages" src="../slideImages/2.png" alt="">
+                                                            <img class="coldHotSliderItemsImages" src="../slideImages/3.png" alt="">
+                                                            <img class="coldHotSliderItemsImages" src="../slideImages/4.png" alt="">
 
                                                         </div>
 
                                                     </div>
 
-                                                    <div class="arrowIconsDiv">
+                                                    <div class="coldHotarrowIconsDiv">
 
-                                                        <img id="colHotSliderItemsLeftArrow" class="colHotSliderItemsarrowIconDivsLeft" src="../icons/left.png" alt="">
-                                                        <img id="colHotSliderItemsRightArrow" class="colHotSliderItemsarrowIconDivsRight" src="../icons/right.png" alt="">
+                                                        <img id="coldHotSliderItemsLeftArrow" class="coldHotSliderItemsarrowIconDivsLeft" src="../icons/left.png" alt="">
+                                                        <img id="coldHotSliderItemsRightArrow" class="coldHotSliderItemsarrowIconDivsRight" src="../icons/right.png" alt="">
                                                     </div>
                                                 </div>
                                             </div>

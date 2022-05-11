@@ -115,3 +115,40 @@ popuSliderLeftArrow.addEventListener("click", () => {
   imageDiv.style.transform = "translateX(" + transferLength + "%)";
   imageDiv.style.transition = "all 1s linear";
 });
+
+coldHotSliderRightArrow = dgebi("coldHotSliderItemsRightArrow");
+coldHotSliderLeftArrow = dgebi("coldHotSliderItemsLeftArrow");
+coldHotSliderImages = dgebCName("coldHotSliderItemsImages");
+let coldHotClickCount = 0;
+const coldHotimageDiv = dgebCName("coldHotSliderItemsImagesDiv")[0];
+
+coldHotSliderRightArrow.addEventListener("click", () => {
+  if (coldHotClickCount <= -(coldHotSliderImages.length-1)) {
+    console.log("REACHED MAX");
+    coldHotClickCount = 1;
+  }
+  coldHotClickCount--;
+  let totalSliderLength = coldHotimageDiv.clientWidth * coldHotSliderImages.length;
+  let transferLength = coldHotClickCount * 100;
+  console.log("CLICKED RIGHT");
+  console.log(transferLength);
+  console.log(coldHotClickCount);
+  coldHotimageDiv.style.transform = "translateX(" + transferLength + "%)";
+  coldHotimageDiv.style.transition = "all 1s linear";
+});
+
+coldHotSliderLeftArrow.addEventListener("click", () => {
+  if (coldHotClickCount == 0) {
+    console.log("ZIMMEN SHIT");
+    coldHotClickCount = -1;
+  }
+  coldHotClickCount++;
+
+  let totalSliderLength = coldHotimageDiv.clientWidth * coldHotSliderImages.length;
+  let transferLength = coldHotClickCount * 100;
+  console.log("CLICKED LEFT");
+  console.log(transferLength);
+  console.log(coldHotClickCount);
+  coldHotimageDiv.style.transform = "translateX(" + transferLength + "%)";
+  coldHotimageDiv.style.transition = "all 1s linear";
+});
