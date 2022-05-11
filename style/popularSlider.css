@@ -1,0 +1,39 @@
+.topProductsListRow{
+    position: relative;
+}
+.arrowIconsDiv{
+    
+    position: absolute;
+    top: 35%;
+}
+.popularSliderItemsDiv{
+    
+    overflow-x: hidden;
+}
+
+.popularSliderItemsarrowIconDivsRight,.popularSliderItemsarrowIconDivsLeft{
+    width: 80px;
+   
+    cursor: pointer;
+}
+.popularSliderItemsarrowIconDivsRight{
+    padding-top: 0;
+  
+}
+.popularSliderItemsarrowIconDivsLeft{
+    padding-top: 0;
+   
+}
+.popularSliderItemsImagesDiv {
+
+    display: flex;
+    flex-direction: row;
+  
+   
+}
+.popularSliderItemsImages{
+    width: 100%;
+    padding: 0;
+    
+}
+

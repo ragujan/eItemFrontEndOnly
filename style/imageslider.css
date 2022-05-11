@@ -1,0 +1,52 @@
+.sliderImages {
+    width: 100%;
+    max-width: 100%;
+}
+
+.imageSliderDiv {
+    
+    position: relative;
+}
+.sliderSingleImage{
+    width: 350px;
+}
+.arrowIconDivsRight,
+.arrowIconDivsLeft {
+    cursor: pointer;
+    position: absolute;
+    bottom: 35%;
+}
+
+.arrowIconDivsRight {
+
+    right: 5%;
+}
+
+.arrowIconDivsLeft {
+
+    left: 5%;
+}
+
+.showTransistion {
+    display: block;
+    animation: opacityChange;
+    animation-duration: 0.5s;
+
+}
+
+@keyframes opacityChange {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.hideTransistion {
+    display: none;
+    transition: display 0.5s linear;
+}
