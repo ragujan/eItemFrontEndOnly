@@ -1,5 +1,5 @@
 .mainHeader {
-    background-color: rgb(2, 2, 11);
+    background-color: #0E1417;
 }
 
 .navbarLogo {
@@ -99,4 +99,24 @@
 .absoluteContentDiv:hover {
     background-color: black;
     opacity: 0.4;
+}
+.productDiv{
+    border-radius: 8px;
+}
+.productDivColor{
+    background-color: #0E1417;
+}
+.productImage{
+    width: 270px;
+    max-width: 100%;
+}
+.viewButton{
+    background-color: rgb(174, 213, 222);
+    color: rgb(2, 2, 11);
+    border-radius: 4px;
+}
+.cartButton{
+    background-color: rgb(174, 213, 222);
+    color: rgb(2, 2, 11); 
+    border-radius: 4px;
 }

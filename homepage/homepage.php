@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../style/homepage.css">
     <link rel="stylesheet" href="../style/imageslider.css">
     <link rel="stylesheet" href="../style/popularSlider.css">
-    <link rel="stylesheet" href="../style/hotpopularslider.css">
+    <link rel="stylesheet" href="../style/coldHotpopularslider.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
     <title>HomePage</title>
 </head>
@@ -216,22 +216,50 @@
                             </div>
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-8">
+                                    <div class="col-12">
                                         <div class="row">
                                             <div class="col-12 coldHotProductsList">
                                                 <div class="row coldHotProductsListRow py-4 ">
                                                     <div class="col-12 coldHotSliderItemsDiv ">
                                                         <div class="coldHotSliderItemsImagesDiv">
-                                                            <img class="coldHotSliderItemsImages" src="../slideImages/1.png" alt="">
+                                                            <div class="coldHotSliderItemsImages col-12">
+                                                                <div class="row">
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="coldHotSliderItemsImages col-12">
+                                                                <div class="row">
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="coldHotSliderItemsImages col-12">
+                                                                <div class="row">
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="coldHotSliderItemsImages col-12">
+                                                                <div class="row">
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                    <div class="col-4 text-center"> <img class="dealsImage " src="../images/Deals.png" alt="" srcset=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <img class="coldHotSliderItemsImages" src="../slideImages/1.png" alt="">
                                                             <img class="coldHotSliderItemsImages" src="../slideImages/2.png" alt="">
                                                             <img class="coldHotSliderItemsImages" src="../slideImages/3.png" alt="">
-                                                            <img class="coldHotSliderItemsImages" src="../slideImages/4.png" alt="">
+                                                            <img class="coldHotSliderItemsImages" src="../slideImages/4.png" alt=""> -->
 
                                                         </div>
 
                                                     </div>
 
-                                                    <div class="coldHotarrowIconsDiv">
+                                                    <div class="coldHotarrowIconsDiv  col-4 text-center">
 
                                                         <img id="coldHotSliderItemsLeftArrow" class="coldHotSliderItemsarrowIconDivsLeft" src="../icons/left.png" alt="">
                                                         <img id="coldHotSliderItemsRightArrow" class="coldHotSliderItemsarrowIconDivsRight" src="../icons/right.png" alt="">
@@ -242,6 +270,127 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 text-center py-4">
+                                <h1>Products</h1>
+                            </div>
+                            <div class="col-12 pt-1">
+                                <div class="row ">
+                                    <div class="col-3  ">
+                                        <div class="row">
+                                            <div class="col-10 offset-1 productDivColor productDiv py-3">
+                                                <div class="row">
+                                                    <div class="col-12 text-center px-5 py-3">
+                                                        <img class="productImage " src="../images/product.png" alt="">
+                                                    </div>
+                                                    <div class="col-10 offset-1 ">
+                                                        <div class="row">
+                                                            <div class="col-12 py-1 ">
+                                                                <h5>Product 1</h5>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <span>Price : 360$</span>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <button class="viewButton w-100">View</button>
+                                                            </div>
+                                                            <div class="col-8 offset-2 text-center py-2">
+                                                                <button class="cartButton w-100">Cart</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3  ">
+                                        <div class="row">
+                                            <div class="col-10 offset-1 productDivColor productDiv py-3">
+                                                <div class="row">
+                                                    <div class="col-12 text-center px-5 py-3">
+                                                        <img class="productImage " src="../images/product.png" alt="">
+                                                    </div>
+                                                    <div class="col-10 offset-1 ">
+                                                        <div class="row">
+                                                            <div class="col-12 py-1 ">
+                                                                <h5>Product 1</h5>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <span>Price : 360$</span>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <button class="viewButton w-100">View</button>
+                                                            </div>
+                                                            <div class="col-8 offset-2 text-center py-2">
+                                                                <button class="cartButton w-100">Cart</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3  ">
+                                        <div class="row">
+                                            <div class="col-10 offset-1 productDivColor productDiv py-3">
+                                                <div class="row">
+                                                    <div class="col-12 text-center px-5 py-3">
+                                                        <img class="productImage " src="../images/product.png" alt="">
+                                                    </div>
+                                                    <div class="col-10 offset-1 ">
+                                                        <div class="row">
+                                                            <div class="col-12 py-1 ">
+                                                                <h5>Product 1</h5>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <span>Price : 360$</span>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <button class="viewButton w-100">View</button>
+                                                            </div>
+                                                            <div class="col-8 offset-2 text-center py-2">
+                                                                <button class="cartButton w-100">Cart</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3  ">
+                                        <div class="row">
+                                            <div class="col-10 offset-1 productDivColor productDiv py-3">
+                                                <div class="row">
+                                                    <div class="col-12 text-center px-5 py-3">
+                                                        <img class="productImage " src="../images/product.png" alt="">
+                                                    </div>
+                                                    <div class="col-10 offset-1 ">
+                                                        <div class="row">
+                                                            <div class="col-12 py-1 ">
+                                                                <h5>Product 1</h5>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <span>Price : 360$</span>
+                                                            </div>
+                                                            <div class="col-6 py-2">
+                                                                <button class="viewButton w-100">View</button>
+                                                            </div>
+                                                            <div class="col-8 offset-2 text-center py-2">
+                                                                <button class="cartButton w-100">Cart</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
                         </div>
                     </div>
 
