@@ -1,5 +1,5 @@
 .sliderImages {
-    width: 100%;
+    
     max-width: 100%;
 }
 
@@ -9,6 +9,7 @@
 }
 .sliderSingleImage{
     width: 350px;
+    max-width: 100%;
 }
 .arrowIconDivsRight,
 .arrowIconDivsLeft {

@@ -1,3 +1,4 @@
+
 .coldHotProductsListRow{
     position: relative;
 }
@@ -33,9 +34,58 @@
   
    
 }
+.coldHotDealsImage{
+    width: 300px;
+    max-width: 100%;
+}
 .coldHotSliderItemsImages{
     width: 100%;
     padding: 0;
     
 }
 
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .coldHotSliderItemsImages {
+        height: 180px;
+        padding: 0;
+    
+    }
+    .coldHotDealsImage{
+        height: 180px;
+        max-width: 100%;
+    }   
+}
+.popHotsliderContainerHolder{
+    position: relative;
+}
+.popHotsliderImageContainerHolder{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.popHotSliderImageContainer{
+    display: flex;
+    flex-direction: row;
+}
+.popHotSliderImage{
+    width: 300px;
+    max-width: 100%;
+}
+.popHotDotsDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 80%;
+}
+.popNavigateCircles{
+    width: 14px;
+    cursor: pointer;
+}
