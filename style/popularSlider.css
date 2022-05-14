@@ -40,6 +40,7 @@
 
 .popularSliderItemsImages {
     width: 100%;
+    height: calc(100vh-500px);
     padding: 0;
 
 }

@@ -1,0 +1,44 @@
+
+
+
+.popCatsliderContainerHolder{
+    position: relative;
+}
+.popCatsliderImageContainerHolder{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.popCatSliderImageContainer{
+    display: flex;
+    flex-direction: row;
+}
+.popCatSliderImage{
+    width: 300px;
+    max-width: 100%;
+}
+.popCatDotsDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 80%;
+}
+.popCatNavigateCircles{
+    width: 14px;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .popCatSliderImage{
+        width: 200px;
+        max-width: 100%;
+    }  
+}

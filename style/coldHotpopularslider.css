@@ -44,23 +44,7 @@
     
 }
 
-@media (max-width: 1200px) {}
 
-@media (max-width: 992px) {}
-
-@media (max-width: 768px) {}
-
-@media (max-width: 576px) {
-    .coldHotSliderItemsImages {
-        height: 180px;
-        padding: 0;
-    
-    }
-    .coldHotDealsImage{
-        height: 180px;
-        max-width: 100%;
-    }   
-}
 .popHotsliderContainerHolder{
     position: relative;
 }
@@ -88,4 +72,17 @@
 .popNavigateCircles{
     width: 14px;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .popHotSliderImage{
+        width: 200px;
+        max-width: 100%;
+    }  
 }

@@ -101,6 +101,11 @@
     background-color: black;
     opacity: 0.4;
 }
+
+.divHeaderText{
+    border-bottom:1px solid white;
+
+}
 .someProductDiv{
     background-color: #0E1417;
 }
@@ -112,7 +117,7 @@
     background-color: #111827;
 }
 .productImage{
-    width: 270px;
+    height: 200px;
     max-width: 100%;
 }
 .viewButton{
