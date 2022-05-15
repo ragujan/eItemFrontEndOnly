@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="../style/popularSlider.css">
     <link rel="stylesheet" href="../style/coldHotpopularslider.css">
     <link rel="stylesheet" href="../style/popCatPopularSlider.css">
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
@@ -141,17 +143,17 @@
                             <div class="col-12 popHotsliderContainerHolder py-3">
                                 <div class="popHotsliderImageContainerHolder pt-2 pb-3">
                                     <div class="popHotSliderImageContainer">
-                                        <img class="popHotSliderImage " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage " src="../images/Deals3.png" alt="">
-                                        <img class="popHotSliderImage  " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage  " src="../images/Deals.png" alt="">
-                                        <img class="popHotSliderImage  " src="../images/Deals3.png" alt="">
+                                        <img class="popHotSliderImage " id="0" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="1" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="2" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="3" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="4" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="5" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="6" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="7" src="../images/Deals3.png" alt="">
+                                        <img class="popHotSliderImage " id="8" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="9" src="../images/Deals.png" alt="">
+                                        <img class="popHotSliderImage " id="10" src="../images/Deals3.png" alt="">
                                     </div>
                                 </div>
                                 <div class="col-2 offset-5  popHotDotsDiv  text-center">
@@ -254,17 +256,17 @@
                                         <div class="row">
                                             <div class="col-lg-12 col-12   ">
                                                 <div class="row">
-                                                    <div class="col-10 offset-1 productDiv  productDivColor py-4">
+                                                    <div class="col-10 offset-1 productDiv  productDivColor ">
                                                         <div class="row">
-                                                            <div class="col-12 text-center px-lg-4 px-1  py-3">
+                                                            <div style="cursor: pointer;" class="productImageDiv   col-12 text-center px-lg-4 px-1  pt-4 pb-5">
                                                                 <img class="productImage " src="../images/product.png" alt="">
                                                             </div>
-                                                            <div class="col-12 offset-0 text-center">
+                                                            <div class="col-12 offset-0 text-center pt-3 pb-3">
                                                                 <div class="row">
-                                                                    <div class="col-12 py-1 text-center">
+                                                                    <div class="col-12 pt-1 text-center">
                                                                         <h4 class="fw-bold">Product 1</h4>
                                                                     </div>
-                                                                    <div class="col-12 py-1 text-center">
+                                                                    <div class="col-12 py-1 text-center d-none">
                                                                         <span class="fa fa-star checked"></span>
                                                                         <span class="fa fa-star checked"></span>
                                                                         <span class="fa fa-star checked"></span>
@@ -272,14 +274,22 @@
                                                                         <span class="fa fa-star"></span>
                                                                     </div>
                                                                     <div class="col-12 py-1 ">
-                                                                        <span>360$</span>
+                                                                        <span>$ 360</span>
                                                                     </div>
                                                                     <div class="col-12 text-center py-2 px-5">
                                                                         <button class="viewButton w-100 py-1">View</button>
                                                                     </div>
                                                                     <div class="col-12 text-center py-2 px-5">
-                                                                        <button class="cartButton w-100 py-1 ">Cart</button>
+                                                                        <div class="row">
+                                                                            <div class="col-6 text-center  ">
+                                                                                <button class="cartButton w-100 py-1 ">\__/</button>
+                                                                            </div>
+                                                                            <div class="col-6 text-center  ">
+                                                                                <button class="cartButton w-100 py-1 ">&LessGreater;3</button>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -331,7 +341,7 @@
 
                         </div>
                     </div>
-                    <div class="col-12    someProductDiv pb-5">
+                    <div class="col-12     darkBlue pb-5">
                         <div class="row pb-3 pt-2">
                             <div class="col-12">
                                 <div class="row">
@@ -344,7 +354,7 @@
                                 <div class="row pt-2">
                                     <div class="col-12 popCatsliderContainerHolder py-3">
                                         <div class="popCatsliderImageContainerHolder pt-2 pb-3">
-                                            <div class="popCatSliderImageContainer">
+                                            <div class="popCatSliderImageContainer ">
                                                 <!-- <img class="popCatSliderImage " src="../images/Deals.png" alt="">
                                                 <img class="popCatSliderImage " src="../images/Deals.png" alt="">
                                                 <img class="popCatSliderImage " src="../images/Deals.png" alt="">
@@ -361,7 +371,7 @@
                                                     <div class="row">
                                                         <div class="col-lg-12 col-12   ">
                                                             <div class="row">
-                                                                <div class="col-10 offset-1 productDiv  productDivColor py-4">
+                                                                <div class="col-10 offset-1 productDiv  blackBlue py-4">
                                                                     <div class="row">
                                                                         <div class="col-12 text-center px-lg-4 px-1  py-3">
                                                                             <img class="productImage " src="../images/product.png" alt="">
@@ -399,7 +409,7 @@
                                                     <div class="row">
                                                         <div class="col-lg-12 col-12   ">
                                                             <div class="row">
-                                                                <div class="col-10 offset-1 productDiv  productDivColor py-4">
+                                                                <div class="col-10 offset-1 productDiv  blackBlue py-4">
                                                                     <div class="row">
                                                                         <div class="col-12 text-center px-lg-4 px-1  py-3">
                                                                             <img class="productImage " src="../images/product.png" alt="">
@@ -437,7 +447,7 @@
                                                     <div class="row">
                                                         <div class="col-lg-12 col-12   ">
                                                             <div class="row">
-                                                                <div class="col-10 offset-1 productDiv  productDivColor py-4">
+                                                                <div class="col-10 offset-1 productDiv  blackBlue py-4">
                                                                     <div class="row">
                                                                         <div class="col-12 text-center px-lg-4 px-1  py-3">
                                                                             <img class="productImage " src="../images/product.png" alt="">
@@ -475,7 +485,7 @@
                                                     <div class="row">
                                                         <div class="col-lg-12 col-12   ">
                                                             <div class="row">
-                                                                <div class="col-10 offset-1 productDiv  productDivColor py-4">
+                                                                <div class="col-10 offset-1 productDiv  blackBlue py-4">
                                                                     <div class="row">
                                                                         <div class="col-12 text-center px-lg-4 px-1  py-3">
                                                                             <img class="productImage " src="../images/product.png" alt="">
@@ -521,7 +531,38 @@
 
                         </div>
                     </div>
+                    <div class="col-12">
+                        
+                    </div>
+                    <div class="col-12 specialProductDiv blackBlue  ">
+                        <div class="row">
+                            <div class="col-12 text-center text-lg-end px-0">
+                                <img src="../images/pyor.webp" class="specialProductImage" alt="">
+                            </div>
+                            <div class="col-12 p-5 specialProductBgImageDiv">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <h1 class="divHeaderText">Special product of the week</h1>
+                                            </div>
+                                            <div class="col-12  py-4">
+                                                <p class="">It looks like the webpage at https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFqbsqZfQkcnpqSxdnrdmhzsr might be having issues, or it may have moved permanently to a new web address.</p>
+                                                <p class="">It looks like the webpage at https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFqbsqZfQkcnpqSxdnrdmhzsr might be having issues, or it may have moved permanently to a new web address.
+                                                    It looks like the webpage at https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFqbsqZfQkcnpqSxdnrdmhzsr might be having issues, or it may have moved permanently to a new web address.
 
+
+                                                </p>
+                                                <p class="">It looks like the webpage at https://mail.google.com/mail/u/0/#inbox/FMfcgzGpFqbsqZfQkcnpqSxdnrdmhzsr might be having issues, or it may have moved permanently to a new web address.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <div class="col-12">
@@ -585,6 +626,8 @@
             </div>
         </div>
     </div>
+
+
     <script src="homepage.js"></script>
     <script src="popCatSlider.js"></script>
 </body>

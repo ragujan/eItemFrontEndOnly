@@ -4,34 +4,29 @@ const popCatImagesContainer = dgebCName("popCatSliderImageContainer")[0];
 
 const popCatImages = dgebCName("popCatSliderImageDivs");
 let popCatCount = 0;
-let popCatoglength = popCatImages.length;
-console.log(popCatoglength);
+
+let popCatoglength = popCatImages.length
 
 popCatCircleRight.addEventListener("click", () => {
+  
   popCatCount++;
-  console.log(popCatCount); //123
-
   let popCatImageLength = popCatCount * popCatImages[0].clientWidth;
-  console.log(popCatImageLength);
   let transferLength = popCatImageLength;
-  let totalSliderLength = popCatImageLength * popCatImages.length;
-  console.log(transferLength);
 
-  console.log(totalSliderLength);
-
-  popCatImagesContainer.style.transform = "translateX(-" + transferLength + "px)";
+  popCatImagesContainer.style.transform =
+    "translateX(-" + transferLength + "px)";
   popCatImagesContainer.style.transition = "transform 0.5s linear";
 
   setTimeout(() => {
     let copy =
       popCatImagesContainer.children[
-        document.getElementsByClassName("popCatSliderImageDivs").length - popCatoglength
+        document.getElementsByClassName("popCatSliderImageDivs").length -
+        popCatCount
       ].cloneNode(true);
     popCatImagesContainer.appendChild(copy);
+    console.log(copy);
   }, 500);
 });
-
-
 
 popCatCircleLeft.addEventListener("click", () => {
   if (popCatCount == 0) {
@@ -43,19 +38,18 @@ popCatCircleLeft.addEventListener("click", () => {
   let popImageLength = popCount * popImages[0].clientWidth;
   console.log(popImageLength);
   let transferLength = popImageLength;
-  let totalSliderLength = popImageLength * popImages.length;
-  console.log(transferLength);
 
-  console.log(totalSliderLength);
-
-  popImagesContainer.style.transform = "translateX(-" + transferLength + "px)";
-  popImagesContainer.style.transition = "transform 0.5s linear";
+  let popCatoglength = popCatImages.length;
+  popCatImagesContainer.style.transform =
+    "translateX(-" + transferLength + "px)";
+  popCatImagesContainer.style.transition = "transform 0.5s linear";
 
   setTimeout(() => {
     let copy =
-      popImagesContainer.children[
-        document.getElementsByClassName("popCatSliderImageDivs").length - popCatoglength
+      popCatImagesContainer.children[
+        document.getElementsByClassName("popCatSliderImageDivs").length -
+          popCatoglength
       ].cloneNode(true);
-    popImagesContainer.appendChild(copy);
+    popCatImagesContainer.appendChild(copy);
   }, 500);
 });

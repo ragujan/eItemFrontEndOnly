@@ -8,7 +8,9 @@
 .mainThemeColor {
     background-color: #111827;
 }
-
+.blackColor{
+    background-color: black;
+}
 .defaultFontColor {
     color: white;
 }

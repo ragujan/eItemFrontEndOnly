@@ -122,9 +122,7 @@ popCircleLeft.addEventListener("click", () => {
 
   setTimeout(() => {
     let copy =
-      popImagesContainer.children[
-        document.getElementsByClassName("popHotSliderImage").length - oglength
-      ].cloneNode(true);
-    popImagesContainer.appendChild(copy);
+      popImagesContainer.children[document.getElementsByClassName("popHotSliderImage").length - oglength].cloneNode(true);
+        popImagesContainer.appendChild(copy);
   }, 500);
 });

@@ -1,7 +1,12 @@
 .mainHeader {
     background-color: #0E1417;
 }
-
+.darkBlue{
+    background-color: #111827;
+}
+.blackBlue{
+    background-color: #0E1417;
+}
 .navbarLogo {
     width: 70px;
     max-width: 100%;
@@ -116,10 +121,20 @@
     
     background-color: #111827;
 }
+.productImageDiv{
+    transition: linear 0.5s background-color;
+}
+.productImageDiv:hover{
+    background-color: black;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
 .productImage{
     height: 200px;
     max-width: 100%;
 }
+
 .viewButton{
     background-color: rgb(174, 213, 222);
     color: rgb(2, 2, 11);
@@ -155,9 +170,22 @@
     width: 30px;
     max-width: 100%;
 }
-
-
+.specialProductDiv{
+    position: relative;
+  
+}
+.specialProductBgImageDiv{
+    position: absolute;
+}
 .footerLogo{
     width: 200px;
+    max-width: 100%;
+}
+.specialProductImage{
+    height: 100%;
+   
+}
+.adminimages{
+    width: 300px;
     max-width: 100%;
 }
