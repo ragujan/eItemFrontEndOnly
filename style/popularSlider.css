@@ -31,18 +31,14 @@
 }
 
 .popularSliderItemsImagesDiv {
-
-    display: flex;
+  display: flex;
     flex-direction: row;
-
-
 }
 
 .popularSliderItemsImages {
     width: 100%;
-    height: calc(100vh-500px);
+    height: 500px;
     padding: 0;
-
 }
 
 
@@ -51,11 +47,17 @@
 
 @media (max-width: 992px) {}
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .popularSliderItemsImages {
+        height: 380px;
+        padding: 0;
+    
+    }  
+}
 
 @media (max-width: 576px) {
     .popularSliderItemsImages {
-        height: 180px;
+        height: 250px;
         padding: 0;
     
     }   

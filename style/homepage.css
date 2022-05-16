@@ -1,12 +1,15 @@
 .mainHeader {
     background-color: #0E1417;
 }
-.darkBlue{
+
+.darkBlue {
     background-color: #111827;
 }
-.blackBlue{
+
+.blackBlue {
     background-color: #0E1417;
 }
+
 .navbarLogo {
     width: 70px;
     max-width: 100%;
@@ -64,8 +67,11 @@
 .navbarDropDownItemsDiv {
     position: absolute;
     z-index: 20;
+    left: 0;
 }
-
+.navbarDropDownItemsDivSmallSize{
+    height: 0;
+}
 .navbarDropDownItems {
     background-color: rgb(2, 2, 11);
 }
@@ -96,96 +102,186 @@
 
 .absoluteContentDiv {
     height: 100%;
-    
+
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .absoluteContentDiv:hover {
     background-color: black;
     opacity: 0.4;
 }
 
-.divHeaderText{
-    border-bottom:1px solid white;
+.divHeaderText {
+    border-bottom: 1px solid white;
 
 }
-.someProductDiv{
-    background-color: #0E1417;
+.productHolderContainerDiv{
+    position: relative;
+
 }
-.productDiv{
+.wishListAbsoluteDiv{
+    top: 20%;
+    right: 5%;
+    position: absolute;
+}
+.wishListAbsoluteDiv img{
+    width: 35px;
+    cursor: pointer;
+}
+.searchIconAbsoluteDiv{
+    top: 28%;
+    right: 5%;
+    position: absolute; 
+}
+.searchIconAbsoluteDiv img{
+    width: 30px;
+    cursor: pointer;
+}
+.someProductDiv {
+    
+}
+
+.productDiv {
     border-radius: 8px;
 }
-.productDivColor{
-    
+
+.productDivColor {
+
     background-color: #111827;
 }
-.productImageDiv{
+
+.productImageDiv {
     transition: linear 0.5s background-color;
 }
-.productImageDiv:hover{
+
+.productImageDiv:hover {
     background-color: black;
 
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.productImage{
-    height: 200px;
+
+.productImage {
+    width: 150px;
     max-width: 100%;
 }
 
-.viewButton{
+.viewButton {
     background-color: rgb(174, 213, 222);
     color: rgb(2, 2, 11);
     border-radius: 4px;
     transition: all 0.2s linear;
 }
-.cartButton{
+
+.cartButton {
     background-color: rgb(174, 213, 222);
-    color: rgb(2, 2, 11); 
+    color: rgb(2, 2, 11);
     border-radius: 4px;
     transition: all 0.2s linear;
 }
-.viewButton:hover{
+
+.viewButton:hover {
     color: rgb(174, 213, 222);
-    background-color: rgb(2, 2, 11);  
+    background-color: rgb(2, 2, 11);
 }
-.cartButton:hover{
+
+.cartButton:hover {
     color: rgb(174, 213, 222);
-    background-color: rgb(2, 2, 11);  
+    background-color: rgb(2, 2, 11);
 }
-.df{
+
+.df {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
+
 }
-.userIconPng{
+
+.userIconPng {
     width: 30px;
     max-width: 100%;
 }
-.cartIconPng{
+
+.cartIconPng {
     width: 30px;
     max-width: 100%;
 }
-.specialProductDiv{
+
+.specialProductDiv {
     position: relative;
-  
+    overflow-y: hidden;
+    background-image: url("../images/pyor.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.specialProductBgImageDiv{
+
+.specialProductBgImageDiv {
     position: absolute;
+    
+
+    z-index: -1;
+    height: 100%;
+ 
 }
-.footerLogo{
+
+.specialProductImage {
+    width: 100%;
+    background-color: black;
+
+}
+
+.specialProductDetailsDiv {
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.checkoutBtn {
+    border-radius: 8px;
+    background-color: #0c6775;
+    transition: all 0.5s linear;
+}
+
+.checkoutBtn:hover {
+    background-color: #0E1417;
+    color: white;
+    font-weight: bold;
+}
+
+.footerLogo {
     width: 200px;
     max-width: 100%;
 }
-.specialProductImage{
-    height: 100%;
-   
+
+.owlCaroItem {
+    border-radius: 8px;
 }
-.adminimages{
-    width: 300px;
+.newArrivalDivContainer{
+    border-radius: 8px;
+}
+.newArrivalsImagesDiv img{ 
+    height: 150px;
     max-width: 100%;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .specialProductImage {
+        height: 100%;
+       
+
+    }
+}
+
+@media (max-width: 576px) {
+    .specialProductParaDiv p {
+        font-size: 15px;
+    }
 }
