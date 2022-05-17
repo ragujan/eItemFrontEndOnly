@@ -149,15 +149,21 @@
 
                     <div id="someProductDiv" class="col-12 blackBlue   someProductDiv pb-5">
                         <div class="row pb-3 pt-2">
-
+                            <div class="col-12 text-center py-3">
+                                <div class="row">
+                                    <div class="col-4 offset-4">
+                                        <h1 class="divHeaderText text-center">Wishlist</h1>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-12  pb-5">
                                 <div class="row pt-2">
 
-                                    <div class=" col-9  pb-lg-4 pb-4 productHolderContainerDiv">
+                                    <div class=" col-12 pb-lg-4 pb-4 productHolderContainerDiv">
 
                                         <div class="row">
 
-                                            <div class="col-lg-12 col-12  pb-2  px-lg-4 px-3">
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-12  pb-2  px-lg-4 px-3">
                                                 <div class="row">
                                                     <div style="position: relative;" class="col-lg-12 col-12 productDiv  productDivColor py-4 ">
                                                         <div class="wishListAbsoluteDiv text-center d-none">
@@ -168,11 +174,11 @@
                                                         </div>
                                                         <div class="row">
 
-                                                            <div class="col-4 col-md-5 col-lg-4 text-center px-lg-4 px-1  py-3">
+                                                            <div class="col-12 col-lg-12 text-center px-lg-4 px-1  py-3">
 
                                                                 <img class="productImage " src="../images/product4.jpg" alt="">
                                                             </div>
-                                                            <div class="col-8 col-md-7 col-lg-8 offset-0 py-1">
+                                                            <div class="col-12 col-lg-12 offset-0 py-1">
                                                                 <div class="row">
                                                                     <div class="col-12 py-1 ">
                                                                         <h6 class="fw-bold">Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</h6>
@@ -188,10 +194,8 @@
                                                                         <span class="fs-6 fa fa-star"></span>
                                                                         <span class="fs-6 fa fa-star"></span>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-6 py-2">
-                                                                        <span>Seller RAG</span>
-                                                                    </div>
-                                                                    <div class="col-lg-4 col-6 py-2">
+
+                                                                    <div class="col-lg-4 col-6 py-2 my-auto">
                                                                         <span>Qty</span>
                                                                         <select class=" px-2" name="" id="">
                                                                             <option value="">1</option>
@@ -202,13 +206,13 @@
                                                                         </select>
                                                                     </div>
 
-                                                                    <div class="col-8 py-3">
+                                                                    <div class="col-lg-8 col-6 py-3 px-4">
                                                                         <div class="row">
-                                                                            <div class="col-lg-4 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
+                                                                            <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
                                                                                 <button class="buyButton w-100 py-1">Remove</button>
                                                                             </div>
-                                                                            <div class="col-lg-4 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
-                                                                                <button class="cartButton w-100 py-1 ">Wish list</button>
+                                                                            <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
+                                                                                <button class="cartButton w-100 py-1 ">to Cart</button>
                                                                             </div>
 
                                                                         </div>
@@ -221,7 +225,7 @@
 
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-12   pb-2 px-lg-4 px-3">
+                                            <div class="col-lg-3 col-md-4 col-sm-6 col-12  pb-2  px-lg-4 px-3">
                                                 <div class="row">
                                                     <div style="position: relative;" class="col-lg-12 col-12 productDiv  productDivColor py-4 ">
                                                         <div class="wishListAbsoluteDiv text-center d-none">
@@ -232,11 +236,11 @@
                                                         </div>
                                                         <div class="row">
 
-                                                            <div class="col-4 col-md-5 col-lg-4 text-center px-lg-4 px-1  py-3">
+                                                            <div class="col-12 col-lg-12 text-center px-lg-4 px-1  py-3">
 
                                                                 <img class="productImage " src="../images/product4.jpg" alt="">
                                                             </div>
-                                                            <div class="col-8 col-md-7 col-lg-8 offset-0 py-1">
+                                                            <div class="col-12 col-lg-12 offset-0 py-1">
                                                                 <div class="row">
                                                                     <div class="col-12 py-1 ">
                                                                         <h6 class="fw-bold">Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</h6>
@@ -252,10 +256,8 @@
                                                                         <span class="fs-6 fa fa-star"></span>
                                                                         <span class="fs-6 fa fa-star"></span>
                                                                     </div>
-                                                                    <div class="col-lg-4 col-6 py-2">
-                                                                        <span>Seller RAG</span>
-                                                                    </div>
-                                                                    <div class="col-lg-4 col-6 py-2">
+
+                                                                    <div class="col-lg-4 col-6 py-2 my-auto">
                                                                         <span>Qty</span>
                                                                         <select class=" px-2" name="" id="">
                                                                             <option value="">1</option>
@@ -266,13 +268,13 @@
                                                                         </select>
                                                                     </div>
 
-                                                                    <div class="col-8 py-3">
+                                                                    <div class="col-lg-8 col-6 py-3 px-4">
                                                                         <div class="row">
-                                                                            <div class="col-lg-4 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
+                                                                            <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
                                                                                 <button class="buyButton w-100 py-1">Remove</button>
                                                                             </div>
-                                                                            <div class="col-lg-4 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
-                                                                                <button class="cartButton w-100 py-1 ">Wish list</button>
+                                                                            <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-12 text-center py-1 px-md-2 px-3 px-lg-0">
+                                                                                <button class="cartButton w-100 py-1 ">to Cart</button>
                                                                             </div>
 
                                                                         </div>
@@ -287,19 +289,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-3 cartCheckOutContainerDiv ps-2 darkBlue borderRound8px">
-                                        <div class="row">
-                                            <div class="col-12 pt-3 pb-2 text-center">
-                                                <span>Subtotal</span>
-                                            </div>
-                                            <div class="col-12 py-1 text-center">
-                                                <span> $362</span>
-                                            </div>
-                                            <div class="col-12 py-1 text-center">
-                                            <button class="cartButton w-100 py-2 ">checkout</button>
-                                            </div>
-                                        </div>
-                                    </div>
+
 
                                 </div>
                             </div>
