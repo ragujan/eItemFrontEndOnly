@@ -1,7 +1,9 @@
 window.addEventListener("resize", () => {
   console.log(window.outerWidth);
 });
-
+window.addEventListener('load',()=>{
+  secondNavbar.classList.toggle("d-none")
+})
 const dgebi = (id) => {
   const selectedelement = document.querySelector("#" + id);
   return selectedelement;
@@ -10,6 +12,13 @@ const dgebCName = (cname) => {
   const selectedelement = document.querySelectorAll("." + cname);
   return selectedelement;
 };
+const secondNavbar = dgebCName("secondNavbar")[0];
+const burgerMenuIcon = dgebi('burgerMenuIcon');
+burgerMenuIcon.addEventListener('click',()=>{
+  
+  secondNavbar.classList.toggle("secondNavbar")
+  secondNavbar.classList.toggle("d-none")
+})
 const mainHoldingDiv = dgebi("mainHoldingDiv");
 window.addEventListener("scroll", () => {
   const headerDiv = dgebi("headerDiv");
@@ -53,21 +62,33 @@ const userIcon = dgebi("userIconId");
 userIcon.addEventListener("click", () => {
   window.location = "../userRegLog/userRegLog.php";
 });
-
+const navbarDropDownItemsDiv =   dgebCName("navbarDropDownItemsDiv");
+const navbarDropDownItemsDivSM = dgebCName("navbarDropDownItemsDivSM");
 const nbarItems = dgebCName("navbarMainItemsDiv");
+
 nbarItems[0].addEventListener("mouseover", () => {
-  dgebCName("navbarDropDownItemsDiv")[0].classList.toggle("d-none");
+  navbarDropDownItemsDiv[0].classList.toggle("d-none");
 });
 nbarItems[0].addEventListener("mouseout", () => {
-  dgebCName("navbarDropDownItemsDiv")[0].classList.toggle("d-none");
+  navbarDropDownItemsDiv[0].classList.toggle("d-none");
 });
 
 nbarItems[1].addEventListener("mouseover", () => {
-  dgebCName("navbarDropDownItemsDiv")[1].classList.toggle("d-none");
+  navbarDropDownItemsDiv[1].classList.toggle("d-none");
 });
 nbarItems[1].addEventListener("mouseout", () => {
-  dgebCName("navbarDropDownItemsDiv")[1].classList.toggle("d-none");
+  navbarDropDownItemsDiv[1].classList.toggle("d-none");
 });
+
+
+nbarItems[2].addEventListener("click", () => {
+  navbarDropDownItemsDivSM[0].classList.toggle("d-none");
+});
+
+nbarItems[3].addEventListener("click", () => {
+  navbarDropDownItemsDivSM[1].classList.toggle("d-none");
+});
+
 
 popuSliderRightArrow = dgebi("popularSliderItemsRightArrow");
 popuSliderLeftArrow = dgebi("popularSliderItemsLeftArrow");

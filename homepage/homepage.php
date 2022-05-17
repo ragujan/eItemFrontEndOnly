@@ -38,8 +38,8 @@
                             <div class="col-md-1 col-5 my-auto  text-start text-md-center">
                                 <img src="../images/logoBgRemoved.png" class="navbarLogo" alt="">
                             </div>
-                            <div class="col-md-1 col-7 d-block d-md-none my-auto  text-end text-md-center">
-                                <img style="cursor: pointer;" src="../images/logoBgRemoved.png" class="navbarLogo" alt="">
+                            <div class="col-md-1 col-7 d-block d-md-none my-auto  text-end text-md-center pe-4">
+                                <img id="burgerMenuIcon" style="cursor: pointer;width: 30px;" src="../icons/burgerMenu.png" class="navbarLogo" alt="">
                             </div>
                             <div class="col-11 d-none d-md-block my-auto">
                                 <div class="row ">
@@ -91,7 +91,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 d-block d-md-none my-auto">
+                            <div class="secondNavbar col-12 d-block d-md-none my-auto">
                                 <div class="row py-4">
 
                                     <div class="col-10 offset-1 my-auto pt-3 pb-3 ">
@@ -105,32 +105,32 @@
 
                                             <div class="col-12 downsideItems ">
                                                 <div class="row">
-                                                    <div class="col-12 navbarMainItemsDiv py-3">
+                                                    <div class="col-10 offset-1 navbarMainItemsDiv py-3">
                                                         <div class="downsideItemsDiv py-1 rounded-2 text-center"><span>Items</span></div>
-                                                        <div class=" col-10 offset-1 d-none navbarDropDownItemsDiv px-0">
+                                                        <div class=" col-10 offset-1 d-none navbarDropDownItemsDivSM px-0">
                                                             <div class="row mt-2">
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Iphones</span></div>
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Laptops</span></div>
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Monitors</span></div>
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Accesorries</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Iphones</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Laptops</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Monitors</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Accesorries</span></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12   navbarMainItemsDiv py-3">
+                                                    <div class="col-10 offset-1   navbarMainItemsDiv py-3">
                                                         <div class="downsideItemsDiv py-1 rounded-2 text-center"><span>Brands</span></div>
-                                                        <div class="col-10 offset-1 d-none  navbarDropDownItemsDiv px-0">
+                                                        <div class="col-10 offset-1 d-none  navbarDropDownItemsDivSM px-0">
                                                             <div class="row mt-2">
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Apple</span></div>
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Acer</span></div>
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Samsung</span></div>
-                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems2"><span>Razer</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Apple</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Acer</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Samsung</span></div>
+                                                                <div class="col-10 offset-1 py-2 navbarDropDownItems"><span>Razer</span></div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12  text-center py-3">
+                                                    <div class="col-10 offset-1  text-center py-3">
                                                         <div class="downsideItemsDiv py-1 rounded-2"><span>Deals</span></div>
                                                     </div>
-                                                    <div class="col-12  text-center py-3">
+                                                    <div class="col-10 offset-1  text-center py-3">
                                                         <div class="downsideItemsDiv py-1 rounded-2"><span>Services</span></div>
                                                     </div>
                                                 </div>
@@ -139,8 +139,8 @@
 
                                     </div>
                                     <div class="col-12 df ">
-                                        <img id="userIconId" class="userIconPng" src="../icons/user.png" alt="" srcset="">
-                                        <img class="cartIconPng" src="../icons/cart.png" alt="" srcset="">
+                                        <img id="userIconId" class="py-3 py-md-1 userIconPng" src="../icons/user.png" alt="" srcset="">
+                                        <img class="py-3 py-md-1 cartIconPng" src="../icons/cart.png" alt="" srcset="">
                                     </div>
                                 </div>
                             </div>
@@ -493,10 +493,10 @@
             </div>
             <div style="z-index: 40;" class="col-12 blackBlue">
                 <div class="row">
-                    <div class="col-3 my-auto">
+                    <div class="col-lg-3 col-md-3 col-2 my-auto">
                         <img class="footerLogo" src="../images/logo.png" alt="">
                     </div>
-                    <div class="col-9 py-2">
+                    <div class="col-lg-9 col-md-9 col-10 py-2 footerOptionsDiv">
                         <div class="row">
                             <div class="col-4">
                                 <div class="row">

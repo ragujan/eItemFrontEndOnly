@@ -58,3 +58,10 @@
 .spanlinks:hover {
     color: #0c6775;
 }
+
+.borderRound8px{
+    border-radius: 8px;
+}
+.borderRound4px{
+    border-radius: 4px;
+}
