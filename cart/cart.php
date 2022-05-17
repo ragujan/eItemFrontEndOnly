@@ -149,7 +149,13 @@
 
                     <div id="someProductDiv" class="col-12 blackBlue   someProductDiv pb-5">
                         <div class="row pb-3 pt-2">
-
+                            <div class="col-12 text-center py-3">
+                                <div class="row">
+                                    <div class="col-4 offset-4">
+                                        <h1 class="divHeaderText text-center">Cart</h1>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-12  pb-5">
                                 <div class="row pt-2">
 
@@ -296,7 +302,7 @@
                                                 <span> $362</span>
                                             </div>
                                             <div class="col-12 py-1 text-center">
-                                            <button class="cartButton w-100 py-2 ">checkout</button>
+                                                <button class="cartButton w-100 py-2 ">checkout</button>
                                             </div>
                                         </div>
                                     </div>
