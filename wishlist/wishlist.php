@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
 
-    <title>Cart</title>
+    <title>Wishlist</title>
 </head>
 
 <body class="mainThemeColor defaultFontColor">
@@ -377,7 +377,7 @@
 
 
 
-    <script src="cart.js"></script>
+    <script src="wishlist.js"></script>
 </body>
 
 </html>
