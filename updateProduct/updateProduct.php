@@ -149,34 +149,34 @@
                         <div class="row">
                             <div class="col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-8 offset-2">
                                 <div class="row">
-                                   <div class="col-lg-10 offset-lg-1 col-12">
-                                       <div class="row">
-                                       <div class="col-12 py-3">
-                                        <span>Select Category</span>
-                                        <select name="" id="" class=" readonly py-2 w-100">
-                                      
-                       
-                                            <option value="">SmartPhones</option>
-                              
-                                        </select>
+                                    <div class="col-lg-10 offset-lg-1 col-12">
+                                        <div class="row">
+                                            <div class="col-12 py-3">
+                                                <span>Select Category</span>
+                                                <select name="" id="" class=" readonly py-2 w-100">
+
+
+                                                    <option value="">SmartPhones</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Select Brand</span>
+                                                <select name="" id="" class=" py-2 w-100">
+                                                    <option value="">Apple</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Enter Product Name</span>
+                                                <input type="text" value="Apple 11 is max display 11.5 Inch" class="px-2 py-2 w-100">
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Enter Product Price</span>
+                                                <input type="number" value="2000" readonly class="px-2 py-2 w-100">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-12 py-3">
-                                        <span>Select Brand</span>
-                                        <select name="" id="" class=" py-2 w-100">
-                                            <option value="">Apple</option>
-                                  
-                                        </select>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>Enter Product Name</span>
-                                        <input type="text" value="Apple 11 is max display 11.5 Inch" class="px-2 py-2 w-100">
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>Enter Product Price</span>
-                                        <input type="number" value="2000"  readonly class="px-2 py-2 w-100">
-                                    </div>
-                                       </div>
-                                   </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-8 offset-2">
@@ -227,55 +227,13 @@
                                             </div>
                                             <div class="col-12 py-3">
                                                 <div class="row">
+
+
                                                     <div class="col-12"> <span>Choose Storage Sizes</span></div>
-                                                    <div class="col-12"><select name="" class="py-1 px-2" id="chooseSizeBy">
-                                                            <option value="1">Custom Size</option>
-                                                            <option value="2">Choose options</option>
-                                                        </select>
+                                                    <div class="col-12">
+                                                        <input type="number" class="w-100 py-1 px-3" value="64" readonly>
                                                     </div>
-                                                    <div class="col-12 py-2 d-none" id="chooseOptionsCB">
-                                                        <div class="row">
-                                                            <div class="col-4">
-                                                                <div class="row">
-                                                                    <div class="col-8"><span>32GB</span></div>
-                                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-4">
-                                                                <div class="row">
-                                                                    <div class="col-8"><span>64GB</span></div>
-                                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-4">
-                                                                <div class="row">
-                                                                    <div class="col-8"><span>128GB</span></div>
-                                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-4">
-                                                                <div class="row">
-                                                                    <div class="col-8"><span>256GB</span></div>
-                                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-4">
-                                                                <div class="row">
-                                                                    <div class="col-8"><span>512GB</span></div>
-                                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-4">
-                                                                <div class="row">
-                                                                    <div class="col-8"><span>1024GB</span></div>
-                                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 py-2 " id="chooseOptionsType">
-                                                        <input type="number" class="w-100 py-1 px-3">
-                                                    </div>
+
                                                 </div>
 
                                             </div>
@@ -320,12 +278,11 @@
                             </div>
                             <div class="col-12">
                                 <div class="row">
-                                <div class="col-10 offset-1 ">
+                                    <div class="col-10 offset-1 ">
                                         <span>Product About Description</span>
                                     </div>
                                     <div class="col-10 offset-1 py-3">
-                                        <textarea class="w-100 px-4 py-3"  name="" id="" cols="30" rows="10">
-                                        The iPhone 12 mini display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 5.42 inches diagonally (actual viewable area is less).
+                                        <textarea class="w-100 px-4 py-3" name="" id="" cols="30" rows="10">The iPhone 12 mini display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 5.42 inches diagonally (actual viewable area is less).
                                         </textarea>
                                     </div>
                                 </div>

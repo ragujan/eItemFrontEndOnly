@@ -418,7 +418,7 @@
 
 
 
-    <script src="updateProduct.js"></script>
+    <script src="addproduct.js"></script>
 </body>
 
 </html>
