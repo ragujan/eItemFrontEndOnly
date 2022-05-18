@@ -90,3 +90,7 @@ window.addEventListener("resize", () => {
      }
 
   })
+
+  const productImageFiles = dgebi("productImageFiles");
+
+  productImageFiles.addEventListener('select')

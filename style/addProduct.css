@@ -1,3 +1,9 @@
+input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
 .mainHeader {
     background-color: #0E1417;
 }
@@ -246,6 +252,10 @@
 }
 .productExtraDetails{
     font-size: 14px;
+}
+
+.uploadedImages{
+   width: 100px;
 }
 .footerLogo {
     width: 200px;

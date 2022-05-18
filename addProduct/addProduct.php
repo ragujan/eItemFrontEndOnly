@@ -147,7 +147,7 @@
 
                     <div class="col-12 py-4">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-8 offset-2">
                                 <div class="row">
                                     <div class="col-12 py-3">
                                         <span>Select Category</span>
@@ -183,45 +183,45 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-8 offset-2">
                                 <div class="row">
                                     <div class="col-12 py-3">
                                         <div class="row">
                                             <div class="col-12"> <span>Select Color</span></div>
-                                            <div class="col-4">
+                                            <div class="col-lg-4 col-md-6 col-6">
                                                 <div class="row">
                                                     <div class="col-8"><span>Red</span></div>
-                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                    <div class="col-4"> <input class="py-2 " type="checkbox"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-lg-4 col-md-6 col-6">
                                                 <div class="row">
                                                     <div class="col-8"><span>Black</span></div>
-                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                    <div class="col-4"> <input class="py-2 " type="checkbox"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-lg-4 col-md-6 col-6">
                                                 <div class="row">
                                                     <div class="col-8"><span>Grey</span></div>
-                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                    <div class="col-4"> <input class="py-2 " type="checkbox"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-lg-4 col-md-6 col-6">
                                                 <div class="row">
                                                     <div class="col-8"><span>White</span></div>
-                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                    <div class="col-4"> <input class="py-2 " type="checkbox"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-lg-4 col-md-6 col-6">
                                                 <div class="row">
                                                     <div class="col-8"><span>Dark Blue</span></div>
-                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                    <div class="col-4"> <input class="py-2 " type="checkbox"></div>
                                                 </div>
                                             </div>
-                                            <div class="col-4">
+                                            <div class="col-lg-4 col-md-6 col-6">
                                                 <div class="row">
-                                                    <div class="col-8"><span>Light Pink</span></div>
-                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                    <div class="col-8 "><span>Light Pink</span></div>
+                                                    <div class="col-4"> <input class="py-2 " type="checkbox"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -229,13 +229,13 @@
                                     </div>
                                     <div class="col-12 py-3">
                                         <div class="row">
-                                            <div class="col-12"> <span>Choose Sizes</span></div>
+                                            <div class="col-12"> <span>Choose Storage Sizes</span></div>
                                             <div class="col-12"><select name="" class="py-1 px-2" id="chooseSizeBy">
-                                                    <option  value="1">Custom Size</option>
+                                                    <option value="1">Custom Size</option>
                                                     <option value="2">Choose options</option>
                                                 </select>
                                             </div>
-                                            <div class="col-12 py-2" id="chooseOptionsCB">
+                                            <div class="col-12 py-2 d-none" id="chooseOptionsCB">
                                                 <div class="row">
                                                     <div class="col-4">
                                                         <div class="row">
@@ -275,11 +275,45 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 py-2 d-none" id="chooseOptionsType" >
-                                                <input type="number">
+                                            <div class="col-12 py-2 " id="chooseOptionsType">
+                                                <input type="number" class="w-100 py-1 px-3">
                                             </div>
                                         </div>
 
+                                    </div>
+                                    <div class="col-12 ">
+                                        <div class="row">
+                                            <div class="col-12"> <span>Max Qty</span></div>
+                                            <div class="col-12">
+                                                <input type="number" class="w-100 py-1 px-3">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-12 py-2">
+                                        <div class="row">
+                                            <div class="col-12"> <span>Product Images</span></div>
+                                            <div class="col-12">
+                                                <label for="productImageFiles" class="w-100 py-2 px-3 bg-white text-dark">Choose 3 Images</label>
+                                                <input type="file" multiple id="productImageFiles" class="w-100  d-none">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-8 offset-2 uploadedImagesDiv">
+                                <div class="row py-4">
+                                    <div class="col-12 text-center px-5  py-3">
+                                        <img class="uploadedImages" src="../icons/productIcon.png" alt="">
+                                    </div>
+                                    <div class="col-12 text-center px-5  py-3">
+                                        <img class="uploadedImages" src="../icons/productIcon.png" alt="">
+                                    </div>
+                                    <div class="col-12 text-center px-5  py-3">
+                                        <img class="uploadedImages" src="../icons/productIcon.png" alt="">
                                     </div>
                                 </div>
                             </div>
