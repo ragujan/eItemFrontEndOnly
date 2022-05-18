@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../style/bootstrap.css">
     <link rel="stylesheet" href="../style/style.css">
 
-    <link rel="stylesheet" href="../style/invoice.css">
+    <link rel="stylesheet" href="../style/addProduct.css">
 
 
 
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
 
-    <title>Invoice</title>
+    <title>Cart</title>
 </head>
 
 <body class="mainThemeColor defaultFontColor">
@@ -145,197 +145,220 @@
                     </div>
 
 
-
-
-                    <div class="col-lg-10 offset-lg-1 col-12 pb-2 mb-3 border border-1 rounded-2 px-lg-5 px-5">
+                    <div class="col-12 py-4">
                         <div class="row">
-                            <div class="col-12 text-center py-3">
+                            <div class="col-4">
                                 <div class="row">
-                                    <div class="col-4 offset-4">
-                                        <h1 class="divHeaderText text-center">Invoice</h1>
+                                    <div class="col-12 py-3">
+                                        <span>Select Category</span>
+                                        <select name="" id="" class=" py-2 w-100">
+                                            <option value="">Category</option>
+                                            <option value="">Computer</option>
+                                            <option value="">Laptops</option>
+                                            <option value="">SmartPhones</option>
+                                            <option value="">Other Electronic Devices</option>
+                                            <option value="">Computer Accesories</option>
+                                            <option value="">Smartphone Accessories</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>Select Brand</span>
+                                        <select name="" id="" class=" py-2 w-100">
+                                            <option value="">Apple</option>
+                                            <option value="">Samsung</option>
+                                            <option value="">Sony</option>
+                                            <option value="">LG</option>
+                                            <option value="">GoPro</option>
+                                            <option value="">Dell</option>
+                                            <option value="">Lenovo</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>Enter Product Name</span>
+                                        <input type="text" class="px-2 py-2 w-100">
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>Enter Product Price</span>
+                                        <input type="number" class="px-2 py-2 w-100">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-6">
+                            <div class="col-4">
                                 <div class="row">
-                                    <div class="col-12 recipientAddress">
-                                        <h5>Recipient Address</h5>
-                                        <div class="row pt-1"><span>Beaverly Hilss,100450</span></div>
-                                        <div class="row pt-1"><span>Los Angeles, CA, USA</span></div>
-                                        <div class="row pt-1"><span>+45 8889663</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8 col-6 my-auto text-end   ">
-                                <h3 class="pe-lg-4 me-lg-5 fw-bolder ">Rag ESHOP</h3>
-                            </div>
-
-                            <hr class="text-white mt-3">
-                            <div class="col-lg-4 col-6">
-                                <div class="row">
-                                    <div class="col-12 recipientAddress">
-                                        <h5>Sender Address</h5>
-                                        <div class="row pt-1"><span>High all the time,100450</span></div>
-                                        <div class="row pt-1"><span>Los Angeles, CA, USA</span></div>
-                                        <div class="row pt-1"><span>+45 8889663</span></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-8 col-6 my-auto  dateDetails">
-                                <div class="row">
-                                    <div class="col-lg-7 col-4"></div>
-                                    <div class="col-lg-5 col-8  ">
-                                        <div class="row pt-1"><span>Date : 2022/11/11</span></div>
-                                        <div class="row pt-1"><span>Quote : 44444</span></div>
-                                        <div class="row pt-1"><span>Valid Date : 2022/11/15</span></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 pt-5">
-                                <div class="row">
-                                    <div class="col-12 bg-dark py-2 borderRounded">
+                                    <div class="col-12 py-3">
                                         <div class="row">
-                                            <div class="col-lg-4 col-5"><span>Item Description</span></div>
-                                            <div class="col-lg-2 col-2"><span>Qty</span></div>
-                                            <div class="col-lg-3 col-3"><span>Unit Price</span></div>
-                                            <div class="col-lg-3 col-2"><span>Total</span></div>
+                                            <div class="col-12"> <span>Select Color</span></div>
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-8"><span>Red</span></div>
+                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-8"><span>Black</span></div>
+                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-8"><span>Grey</span></div>
+                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-8"><span>White</span></div>
+                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-8"><span>Dark Blue</span></div>
+                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row">
+                                                    <div class="col-8"><span>Light Pink</span></div>
+                                                    <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <div class="col-12 pt-3 blackBlue">
+                                    </div>
+                                    <div class="col-12 py-3">
                                         <div class="row">
-                                            <div class="col-12 py-2 invoiceRows ">
+                                            <div class="col-12"> <span>Choose Sizes</span></div>
+                                            <div class="col-12"><select name="" class="py-1 px-2" id="chooseSizeBy">
+                                                    <option  value="1">Custom Size</option>
+                                                    <option value="2">Choose options</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 py-2" id="chooseOptionsCB">
                                                 <div class="row">
-                                                    <div class="col-lg-4 col-5"><span>Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</span></div>
-                                                    <div class="col-lg-2 col-2"><span>5</span></div>
-                                                    <div class="col-lg-3 col-3"><span>$354.00</span></div>
-                                                    <div class="col-lg-3 col-2"><span>$1600</span></div>
+                                                    <div class="col-4">
+                                                        <div class="row">
+                                                            <div class="col-8"><span>32GB</span></div>
+                                                            <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="row">
+                                                            <div class="col-8"><span>64GB</span></div>
+                                                            <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="row">
+                                                            <div class="col-8"><span>128GB</span></div>
+                                                            <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="row">
+                                                            <div class="col-8"><span>256GB</span></div>
+                                                            <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="row">
+                                                            <div class="col-8"><span>512GB</span></div>
+                                                            <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="row">
+                                                            <div class="col-8"><span>1024GB</span></div>
+                                                            <div class="col-4"> <input class="py-2 px-2" type="checkbox"></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="col-12 py-2 invoiceRows ">
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-5"><span>Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</span></div>
-                                                    <div class="col-lg-2 col-2"><span>5</span></div>
-                                                    <div class="col-lg-3 col-3"><span>$354.00</span></div>
-                                                    <div class="col-lg-3 col-2"><span>$1600</span></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 py-2 invoiceRows ">
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-5"><span>Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</span></div>
-                                                    <div class="col-lg-2 col-2"><span>5</span></div>
-                                                    <div class="col-lg-3 col-3"><span>$354.00</span></div>
-                                                    <div class="col-lg-3 col-2"><span>$1600</span></div>
-                                                </div>
+                                            <div class="col-12 py-2 d-none" id="chooseOptionsType" >
+                                                <input type="number">
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
-
-
-
                             </div>
-                            <div class="col-12  px-0">
-                                <div class="offset-lg-8 col-lg-4 col-md-5 offset-md-7 col-6 offset-6 blackBlue borderRounded ">
-                                    <div class="row py-2">
-                                        <div class="col-12 text-center ">
-                                            <span>Sub Total $135,000</span>
-                                        </div>
-                                        <div class="col-12 text-center ">
-                                            <span>Discout $1000</span>
-                                        </div>
-                                        <div class="col-12 text-center ">
-                                            <span>Shipping & Delivery $250</span>
-                                        </div>
-                                        <div class="col-12 text-center ">
-                                            <span>Grand Total $50000</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            <div class="col-12">
-                                <span>Thank you for your order</span>
-                            </div>
-                            <div class="col-12">
-                                <span>If you have any questions, Feel free to contact us at <a href="#">rag@gmaill.com</a></span>
-                            </div>
-                            <div class="col-12 text-center pt-4 py-2">
-                                <span>&copy;Ragblacko All rights reserved</span>
-                            </div>
-                   
                         </div>
-
                     </div>
-                    <div class="col-12 text-center  pt-2 pb-4">
-                                <span><a href="">Download this as a PDF</a></span>
-                            </div>
-                    <div style="z-index: 40;" class="col-12 blackBlue">
+
+
+
+
+
+
+                </div>
+            </div>
+            <div style="z-index: 40;" class="col-12 blackBlue">
+                <div class="row">
+                    <div class="col-3 my-auto">
+                        <img class="footerLogo" src="../images/logo.png" alt="">
+                    </div>
+                    <div class="col-9 py-2 footerOptionsDiv">
                         <div class="row">
-                            <div class="col-3 my-auto">
-                                <img class="footerLogo" src="../images/logo.png" alt="">
-                            </div>
-                            <div class="col-9 py-2 footerOptionsDiv">
+                            <div class="col-4">
                                 <div class="row">
-                                    <div class="col-4">
-                                        <div class="row">
-                                            <div class="col-12 py-3">
-                                                <span>Delivery</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>About us</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>Secure payment</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>New products</span>
-                                            </div>
-                                        </div>
+                                    <div class="col-12 py-3">
+                                        <span>Delivery</span>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="row">
-                                            <div class="col-12 py-3">
-                                                <span>Delivery</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>About us</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>Secure payment</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>New products</span>
-                                            </div>
-                                        </div>
+                                    <div class="col-12 py-3">
+                                        <span>About us</span>
                                     </div>
-                                    <div class="col-4">
-                                        <div class="row">
-                                            <div class="col-12 py-3">
-                                                <span>Delivery</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>About us</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>Secure payment</span>
-                                            </div>
-                                            <div class="col-12 py-3">
-                                                <span>New products</span>
-                                            </div>
-                                        </div>
+                                    <div class="col-12 py-3">
+                                        <span>Secure payment</span>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>New products</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-12 py-3">
+                                        <span>Delivery</span>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>About us</span>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>Secure payment</span>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>New products</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-12 py-3">
+                                        <span>Delivery</span>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>About us</span>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>Secure payment</span>
+                                    </div>
+                                    <div class="col-12 py-3">
+                                        <span>New products</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
-                <script src="invoice.js"></script>
+    <script src="addproduct.js"></script>
 </body>
 
 </html>
