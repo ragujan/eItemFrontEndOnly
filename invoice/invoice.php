@@ -147,7 +147,7 @@
 
 
 
-                    <div class="col-12">
+                    <div class="col-lg-10 offset-lg-1 col-12 pb-3 mb-5 border border-1 rounded-2 px-lg-5 px-5">
                         <div class="row">
                             <div class="col-12 text-center py-3">
                                 <div class="row">
@@ -156,81 +156,173 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4"></div>
-                            <div class="col-8"></div>
+                            <div class="col-lg-4 col-6">
+                                <div class="row">
+                                    <div class="col-12 recipientAddress">
+                                        <h5>Recipient Address</h5>
+                                        <div class="row pt-1"><span>Beaverly Hilss,100450</span></div>
+                                        <div class="row pt-1"><span>Los Angeles, CA, USA</span></div>
+                                        <div class="row pt-1"><span>+45 8889663</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-6 my-auto text-end   ">
+                                <h3 class="pe-lg-4 me-lg-5 fw-bolder ">Rag ESHOP</h3>
+                            </div>
+
+                            <hr class="text-white mt-3">
+                            <div class="col-lg-4 col-6">
+                                <div class="row">
+                                    <div class="col-12 recipientAddress">
+                                        <h5>Sender Address</h5>
+                                        <div class="row pt-1"><span>High all the time,100450</span></div>
+                                        <div class="row pt-1"><span>Los Angeles, CA, USA</span></div>
+                                        <div class="row pt-1"><span>+45 8889663</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-6 my-auto  dateDetails">
+                                <div class="row">
+                                    <div class="col-lg-7 col-4"></div>
+                                    <div class="col-lg-5 col-8  ">
+                                        <div class="row pt-1"><span>Date : 2022/11/11</span></div>
+                                        <div class="row pt-1"><span>Quote : 44444</span></div>
+                                        <div class="row pt-1"><span>Valid Date : 2022/11/15</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 pt-5">
+                                <div class="row">
+                                    <div class="col-12 bg-dark py-2 borderRounded">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-5"><span>Item Description</span></div>
+                                            <div class="col-lg-2 col-2"><span>Qty</span></div>
+                                            <div class="col-lg-3 col-3"><span>Unit Price</span></div>
+                                            <div class="col-lg-3 col-2"><span>Total</span></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 pt-3 blackBlue">
+                                        <div class="row">
+                                            <div class="col-12 py-2 invoiceRows ">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-5"><span>Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</span></div>
+                                                    <div class="col-lg-2 col-2"><span>5</span></div>
+                                                    <div class="col-lg-3 col-3"><span>$354.00</span></div>
+                                                    <div class="col-lg-3 col-2"><span>$1600</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 py-2 invoiceRows ">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-5"><span>Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</span></div>
+                                                    <div class="col-lg-2 col-2"><span>5</span></div>
+                                                    <div class="col-lg-3 col-3"><span>$354.00</span></div>
+                                                    <div class="col-lg-3 col-2"><span>$1600</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 py-2 invoiceRows ">
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-5"><span>Apple iPhone 11, 64GB, Black - Unlocked (Renewed)</span></div>
+                                                    <div class="col-lg-2 col-2"><span>5</span></div>
+                                                    <div class="col-lg-3 col-3"><span>$354.00</span></div>
+                                                    <div class="col-lg-3 col-2"><span>$1600</span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="col-12  px-0">
+                                <div class="offset-lg-8 col-lg-4 col-md-5 offset-md-7 col-6 offset-6 blackBlue borderRounded ">
+                                    <div class="row py-2">
+                                        <div class="col-12 text-center ">
+                                            <span>Sub Total $135,000</span>
+                                        </div>
+                                        <div class="col-12 text-center ">
+                                            <span>Discout $1000</span>
+                                        </div>
+                                        <div class="col-12 text-center ">
+                                            <span>Shipping & Delivery $250</span>
+                                        </div>
+                                        <div class="col-12 text-center ">
+                                            <span>Grand Total $50000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
                         </div>
+
                     </div>
-
-
-
-                </div>
-            </div>
-            <div style="z-index: 40;" class="col-12 blackBlue">
-                <div class="row">
-                    <div class="col-3 my-auto">
-                        <img class="footerLogo" src="../images/logo.png" alt="">
-                    </div>
-                    <div class="col-9 py-2 footerOptionsDiv">
+                    <div style="z-index: 40;" class="col-12 blackBlue">
                         <div class="row">
-                            <div class="col-4">
-                                <div class="row">
-                                    <div class="col-12 py-3">
-                                        <span>Delivery</span>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>About us</span>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>Secure payment</span>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>New products</span>
-                                    </div>
-                                </div>
+                            <div class="col-3 my-auto">
+                                <img class="footerLogo" src="../images/logo.png" alt="">
                             </div>
-                            <div class="col-4">
+                            <div class="col-9 py-2 footerOptionsDiv">
                                 <div class="row">
-                                    <div class="col-12 py-3">
-                                        <span>Delivery</span>
+                                    <div class="col-4">
+                                        <div class="row">
+                                            <div class="col-12 py-3">
+                                                <span>Delivery</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>About us</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Secure payment</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>New products</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-12 py-3">
-                                        <span>About us</span>
+                                    <div class="col-4">
+                                        <div class="row">
+                                            <div class="col-12 py-3">
+                                                <span>Delivery</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>About us</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Secure payment</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>New products</span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-12 py-3">
-                                        <span>Secure payment</span>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>New products</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="row">
-                                    <div class="col-12 py-3">
-                                        <span>Delivery</span>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>About us</span>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>Secure payment</span>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>New products</span>
+                                    <div class="col-4">
+                                        <div class="row">
+                                            <div class="col-12 py-3">
+                                                <span>Delivery</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>About us</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Secure payment</span>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>New products</span>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
 
 
 
-    <script src="invoice.js"></script>
+                <script src="invoice.js"></script>
 </body>
 
 </html>
