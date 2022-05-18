@@ -76,8 +76,6 @@ select:focus{
     left: 0;
 }
 
-.navbarDropDownItemsDivSM {}
-
 .navbarDropDownItemsDivSmallSize {
     height: 0;
 }
@@ -92,7 +90,7 @@ select:focus{
     cursor: pointer;
 }
 
-.secondNavbar {}
+
 
 .dealsImageDiv {
     position: relative;
@@ -158,40 +156,8 @@ select:focus{
     cursor: pointer;
 }
 
-.someProductDiv {}
 
-.productDiv {
-    border-radius: 8px;
-}
 
-.productDivColor {
-
-    background-color: #111827;
-}
-
-.productImageDiv {
-    transition: linear 0.5s background-color;
-}
-
-.productImageDiv:hover {
-    background-color: black;
-
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
-
-.productImage {
-    height: 200px;
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-.buyButton {
-    background-color: rgb(174, 213, 222);
-    color: rgb(2, 2, 11);
-    border-radius: 4px;
-    transition: all 0.2s linear;
-}
 
 
 .cartButton {
@@ -201,10 +167,6 @@ select:focus{
     transition: all 0.2s linear;
 }
 
-.buyButton:hover {
-    color: rgb(174, 213, 222);
-    background-color: rgb(2, 2, 11);
-}
 
 .cartButton:hover {
     color: rgb(174, 213, 222);
@@ -255,7 +217,9 @@ select:focus{
 }
 
 .uploadedImages{
-   width: 100px;
+   width: 150px;
+   height: 150px;
+   max-width: 100%;
 }
 .footerLogo {
     width: 200px;

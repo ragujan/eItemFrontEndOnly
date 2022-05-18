@@ -22,8 +22,7 @@ window.addEventListener("resize", () => {
   window.addEventListener("scroll", () => {
     const headerDiv = dgebi("headerDiv");
   
-    changeNavColor("someProductDiv", "blackBlue", "darkBlue");
-    changeNavColor("newArrivalsProductDiv", "darkBlue", "blackBlue");
+
   });
   let changeNavColor = (id, addColor, removeColor) => {
     const spd = dgebi(id);
@@ -92,5 +91,11 @@ window.addEventListener("resize", () => {
   })
 
   const productImageFiles = dgebi("productImageFiles");
-
-  productImageFiles.addEventListener('select')
+  const uploadedImages = dgebCName("uploadedImages");
+  productImageFiles.addEventListener("change",()=>{
+      console.log(productImageFiles.files.length);
+      for(let i=0;i<productImageFiles.files.length;i++){
+         console.log(productImageFiles.files[i])
+          uploadedImages[i].src = URL.createObjectURL(productImageFiles.files[i]);
+      }
+  })
