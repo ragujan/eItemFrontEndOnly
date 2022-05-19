@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'mainTheme';
+    src: url('../fonts/Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf');
+}
+*{
+    font-family: 'mainTheme';
+}
+.mainThemeColor {
+    background-color: #111827;
+}
+.blackColor{
+    background-color: black;
+}
+.defaultFontColor {
+    color: white;
+}
+
+.mainHoldingDiv {
+    height: 100%;
+}
+
+.signinInputDiv input {
+    border-radius: 4px;
+    border: none;
+   
+}
+
+.signinInputDiv input:focus {
+    outline: 3px solid rgb(32, 157, 198);
+}
+
+.logoImageMega {
+    width: 300px;
+}
+
+.signinSignupSingleElement {
+    font-size: 17px;
+}
+
+.signinSignupSingleElement button {
+
+    border-radius: 4px;
+    border: none;
+    background-color: #88c8d2;
+}
+
+.signinSignupSingleElement button:hover {
+
+    
+    border: none;
+    background-color: #0c6775;
+}
+
+.spanlinks {
+    cursor: pointer;
+}
+
+.spanlinks:hover {
+    color: #0c6775;
+}
+
+.borderRound8px{
+    border-radius: 8px;
+}
+.borderRound4px{
+    border-radius: 4px;
+}
