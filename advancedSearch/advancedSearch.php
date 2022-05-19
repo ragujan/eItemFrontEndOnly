@@ -41,8 +41,7 @@
                                 <div class="row ">
                                     <div class="col-5 my-auto pt-1 ">
                                         <div class="row ">
-                                            <div class="col-8 "><input placeholder="search for product" type="text" class=" w-100 py-1 ps-3 searchInputField "></div>
-                                            <div class="col-2 text-center"><button class=" w-100 py-1 searchButton fw-bold"><i class="bi bi-search fw-bold"></i></button></div>
+                                           <div class="col-12"></div>
                                         </div>
                                     </div>
                                     <div class=" col-5    my-auto  ">
@@ -90,12 +89,7 @@
                             <div class="secondNavbar col-12 d-block d-md-none my-auto">
                                 <div class="row py-4">
 
-                                    <div class="col-10 offset-1 my-auto pt-3 pb-3 ">
-                                        <div class="row ">
-                                            <div class="col-8 "><input placeholder="search for product" type="text" class=" w-100 py-1 ps-3 searchInputField "></div>
-                                            <div class="col-2 offset-1 text-center"><button class=" w-100 py-1 searchButton fw-bold"><img style="width: 24px;" src="../icons/search.png" alt=""></button></div>
-                                        </div>
-                                    </div>
+
                                     <div class=" col-12    my-auto  pt-3 pb-3">
                                         <div class="row">
 
