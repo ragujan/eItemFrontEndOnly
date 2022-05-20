@@ -29,7 +29,7 @@
         <div class="row">
             <div id="mainHoldingDiv" class="col-12 mainHoldingDiv  ">
                 <div class="row">
-                <div id="headerDiv" class="blackBlue col-12 mainHeader sticky-top">
+                    <div id="headerDiv" class="blackBlue col-12 mainHeader sticky-top">
                         <div class="row">
                             <div class="col-md-1 col-5 my-auto  text-start text-md-center">
                                 <img src="../images/logoBgRemoved.png" class="navbarLogo" alt="">
@@ -41,7 +41,7 @@
                                 <div class="row ">
                                     <div class="col-5 my-auto pt-1 ">
                                         <div class="row ">
-                                           <div class="col-12"></div>
+                                            <div class="col-12"></div>
                                         </div>
                                     </div>
                                     <div class=" col-5    my-auto  ">
@@ -142,42 +142,42 @@
                         <div class="row">
                             <div class="col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-8 offset-2">
                                 <div class="row">
-                                   <div class="col-lg-10 offset-lg-1 col-12">
-                                       <div class="row">
-                                       <div class="col-12 py-3">
-                                        <span>Select Category</span>
-                                        <select name="" id="" class=" py-2 w-100">
-                                            <option value="">Category</option>
-                                            <option value="">Computer</option>
-                                            <option value="">Laptops</option>
-                                            <option value="">SmartPhones</option>
-                                            <option value="">Other Electronic Devices</option>
-                                            <option value="">Computer Accesories</option>
-                                            <option value="">Smartphone Accessories</option>
-                                        </select>
+                                    <div class="col-lg-10 offset-lg-1 col-12">
+                                        <div class="row">
+                                            <div class="col-12 py-3">
+                                                <span>Select Category</span>
+                                                <select name="" id="" class=" py-2 w-100">
+                                                    <option value="">Category</option>
+                                                    <option value="">Computer</option>
+                                                    <option value="">Laptops</option>
+                                                    <option value="">SmartPhones</option>
+                                                    <option value="">Other Electronic Devices</option>
+                                                    <option value="">Computer Accesories</option>
+                                                    <option value="">Smartphone Accessories</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Select Brand</span>
+                                                <select name="" id="" class=" py-2 w-100">
+                                                    <option value="">Apple</option>
+                                                    <option value="">Samsung</option>
+                                                    <option value="">Sony</option>
+                                                    <option value="">LG</option>
+                                                    <option value="">GoPro</option>
+                                                    <option value="">Dell</option>
+                                                    <option value="">Lenovo</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Enter Product Name</span>
+                                                <input type="text" class="px-2 py-2 w-100">
+                                            </div>
+                                            <div class="col-12 py-3">
+                                                <span>Enter Product Price</span>
+                                                <input type="number" class="px-2 py-2 w-100">
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-12 py-3">
-                                        <span>Select Brand</span>
-                                        <select name="" id="" class=" py-2 w-100">
-                                            <option value="">Apple</option>
-                                            <option value="">Samsung</option>
-                                            <option value="">Sony</option>
-                                            <option value="">LG</option>
-                                            <option value="">GoPro</option>
-                                            <option value="">Dell</option>
-                                            <option value="">Lenovo</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>Enter Product Name</span>
-                                        <input type="text" class="px-2 py-2 w-100">
-                                    </div>
-                                    <div class="col-12 py-3">
-                                        <span>Enter Product Price</span>
-                                        <input type="number" class="px-2 py-2 w-100">
-                                    </div>
-                                       </div>
-                                   </div>
                                 </div>
                             </div>
                             <div class="col-lg-6 offset-lg-0 col-md-6 offset-md-3 col-8 offset-2">
@@ -321,7 +321,7 @@
                             </div>
                             <div class="col-12">
                                 <div class="row">
-                                <div class="col-10 offset-1 ">
+                                    <div class="col-10 offset-1 ">
                                         <span>Product About Description</span>
                                     </div>
                                     <div class="col-10 offset-1 py-3">

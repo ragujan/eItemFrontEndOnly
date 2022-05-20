@@ -4,7 +4,12 @@
 }
 *{
     font-family: 'mainTheme';
+    
 }
+input:focus {
+    outline: 3px solid rgb(32, 157, 198);
+}
+
 .mainThemeColor {
     background-color: #111827;
 }

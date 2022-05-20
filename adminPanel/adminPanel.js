@@ -6,47 +6,48 @@ const dgebCName = (cname) => {
   const selectedelement = document.querySelectorAll("." + cname);
   return selectedelement;
 };
+const manageP = dgebi("manageP");
+manageP.addEventListener('click',()=>{
+  window.location ="../adminManageProducts/adminManageProducts.php";
+})
 
+const manageU = dgebi("manageU");
+manageU.addEventListener('click',()=>{
+  window.location ="../adminManageUsers/adminManageUsers.php";
+})
 const mainHoldingDiv = dgebi("mainHoldingDiv");
 window.addEventListener("scroll", () => {
   const headerDiv = dgebi("headerDiv");
 });
 
-popuSliderRightArrow = dgebi("popularSliderItemsRightArrow");
-popuSliderLeftArrow = dgebi("popularSliderItemsLeftArrow");
-popuSliderImages = dgebCName("popularSliderItemsImages");
-let popuClickCount = 0;
-const imageDiv = dgebCName("popularSliderItemsImagesDiv")[0];
-
-popuSliderRightArrow.addEventListener("click", () => {
-  if (popuClickCount <= -(popuSliderImages.length - 1)) {
-    imageDiv.style.transition = "transform 0s linear";
-    popuClickCount = 1;
-  } else {
-    imageDiv.style.transition = "all 1s linear";
-  }
-  popuClickCount--;
-  let totalSliderLength = imageDiv.clientWidth * popuSliderImages.length;
-  let transferLength = popuClickCount * 100;
-  console.log("CLICKED RIGHT");
-  console.log(transferLength);
-  console.log(popuClickCount);
-
-  imageDiv.style.transform = "translateX(" + transferLength + "%)";
+//to set the same height for each slider's in the admin panel
+let heightArray = [];
+const sliderItemDivs = [...dgebCName("owlCaroItem")];
+sliderItemDivs.forEach((slider, id) => {
+  let c =
+    slider.getBoundingClientRect().bottom - slider.getBoundingClientRect().y;
+  console.log(c);
+  heightArray.push(c);
 });
-
-popuSliderLeftArrow.addEventListener("click", () => {
-  if (popuClickCount == 0) {
-    console.log("ZIMMEN SHIT");
-    popuClickCount = -1;
-  }
-  popuClickCount++;
-
-  let totalSliderLength = imageDiv.clientWidth * popuSliderImages.length;
-  let transferLength = popuClickCount * 100;
-  console.log("CLICKED LEFT");
-  console.log(transferLength);
-  console.log(popuClickCount);
-  imageDiv.style.transform = "translateX(" + transferLength + "%)";
-  imageDiv.style.transition = "all 1s linear";
+console.log(heightArray);
+let arrayMax = (arr) => {
+  // return arr.reduce(function (p, v) {
+  //   return p > v ? p : v;
+  // });
+  return arr.reduce((p, v) => {
+    if (p > v) {
+      v = p;
+    } else {
+      v = v;
+    }
+    return v;
+  },0);
+};
+console.log(arrayMax(heightArray));
+sliderItemDivs.forEach((slider, id) => {
+  const singleSlider = slider;
+  singleSlider.style.height = arrayMax(heightArray) + "px";
 });
+let max = Math.max(...heightArray);
+console.log(max);
+//////////////

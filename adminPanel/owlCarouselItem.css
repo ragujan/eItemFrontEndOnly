@@ -1,0 +1,25 @@
+.itemDivColor {
+    background-color: red;
+}
+
+.productImageOwl1 {
+    width: 100px;
+    max-width: 100%;
+}
+.abc2{
+
+   display: flex;
+}
+.owl-carousel{
+  
+}
+.owlCaroItem {
+    
+    border-radius: 8px;
+    height: auto;
+    flex: 1;
+    background-color: #0E1417;
+}
+.owlCaroItem2{
+    height: 50px;
+}

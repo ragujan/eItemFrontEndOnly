@@ -95,26 +95,14 @@ sub {
     bottom: -0.25em
 }
 
-img {
-    border: 0
-}
 
 svg:not(:root) {
     overflow: hidden
 }
 
-figure {
-    margin: 1em 40px
-}
 
-hr {
-    box-sizing: content-box;
-    height: 0
-}
 
-pre {
-    overflow: auto
-}
+
 
 code,
 kbd,
@@ -269,11 +257,6 @@ meta.foundation-data-attribute-namespace {
     font-family: false
 }
 
-html,
-body {
-    height: 100%
-}
-
 *,
 *:before,
 *:after {
@@ -282,32 +265,12 @@ body {
     box-sizing: border-box
 }
 
-html,
-body {
-    font-size: 100%
-}
 
-body {
-    background: #fff;
-    color: #222;
-    cursor: auto;
-    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    position: relative
-}
 
 a:hover {
     cursor: pointer
 }
 
-img {
-    max-width: 100%;
-    height: auto
-}
 
 img {
     -ms-interpolation-mode: bicubic

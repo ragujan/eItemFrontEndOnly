@@ -22,19 +22,19 @@ $(document).ready(function() {
           items: 5
         },
         1200: {
-          margin: 5,
-          items: 5
+          margin: 12,
+          items: 3
         }
       }
     });
-    // owl.on('mousewheel', '.owl-stage', function(e) {
-    //   if (e.deltaY > 0) {
-    //     owl.trigger('next.owl');
-    //   } else {
-    //     owl.trigger('prev.owl');
-    //   }
-    //   e.preventDefault();
-    // });
+    owl.on('mousewheel', '.owl-stage', function(e) {
+      if (e.deltaY > 0) {
+        owl.trigger('next.owl');
+      } else {
+        owl.trigger('prev.owl');
+      }
+      e.preventDefault();
+    });
   })
 
   $(document).ready(function() {
