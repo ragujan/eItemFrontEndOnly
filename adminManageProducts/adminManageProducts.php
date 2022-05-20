@@ -54,8 +54,8 @@
                                 <div class="row pt-2">
                                     <div class="col-lg-2 col-md-3  pb-lg-4 pb-4">
                                         <div class="row ">
-                                            <div class="col-12 py-2 text-center px-4 ">
-
+                                            <div class="col-12 py-2   ">
+                                                <span>Select Category</span>
                                                 <select name="" id="" class=" py-1 w-100 text-center">
                                                     <option value="">Category</option>
                                                     <option value="">Computer</option>
