@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/owlCarouselItem.css">
+    <link rel="stylesheet" href="owlCarouselItem.css">
+    <link rel="stylesheet" href="../style/bootstrap.css">
+
     <title>Admin Panel</title>
 </head>
 
@@ -33,172 +35,88 @@
         <div class="row">
             <div id="mainHoldingDiv" class="col-12 mainHoldingDiv  ">
                 <div class="row">
-            
-
-                    <div id="homeSliderDiv" class="darkBlue col-12 ">
-                        <div class="row">
-                            <div style="cursor: pointer;" class="d-none col-4   dealsImageHolder py-2">
-                                <div class="row">
-                                    <div class="col-10 offset-1 dealsImageDiv  text-center">
-                                        <div>
-                                            <img class="dealsImage " src="../images/Deals.png" alt="" srcset="">
-                                        </div>
-                                        <div class="absoluteContentDiv">
-                                            <img style="visibility: hidden;" class="dealsImage " src="../images/Deals.png" alt="" srcset="">
-                                        </div>
 
 
-                                    </div>
-                                </div>
+                    <div class="col-lg-2 col-md-12 py-4 ">
+                        <div class="row mt-5">
+                            <div class="col-12 py-2 text-center px-4">
+                                <button id="manageU" class=" w-100 py-2 checkoutBtn">Manage Users</button>
                             </div>
-                            <div class="col-12">
-                                <div class="row">
-                                    <div class="col-12 topProductsList">
-                                        <div class="row topProductsListRow py-4 ">
-                                            <div class="col-12 popularSliderItemsDiv ">
-                                                <div class="popularSliderItemsImagesDiv">
-                                                    <img class="popularSliderItemsImages" src="../slideImages/1.png" alt="">
-                                                    <img class="popularSliderItemsImages" src="../slideImages/2.png" alt="">
-                                                    <img class="popularSliderItemsImages" src="../slideImages/3.png" alt="">
-                                                    <img class="popularSliderItemsImages" src="../slideImages/4.png" alt="">
-
-                                                </div>
-
-                                            </div>
-
-                                            <div class="arrowIconsDiv">
-
-                                                <img id="popularSliderItemsLeftArrow" class="popularSliderItemsarrowIconDivsLeft" src="../icons/left.png" alt="">
-                                                <img id="popularSliderItemsRightArrow" class="popularSliderItemsarrowIconDivsRight" src="../icons/right.png" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="col-12 py-2 text-center px-4">
+                                <button id="manageP" class=" w-100 py-2 checkoutBtn">Manage Products</button>
                             </div>
-
+                            <div class="col-12 py-2 text-center px-4">
+                                <button id="manageP" class=" w-100 py-2 checkoutBtn">Manage Admins</button>
+                            </div>
+                            <div class="col-12 py-2 text-center px-4">
+                                <button class=" w-100 py-2 checkoutBtn">Check Statistics</button>
+                            </div>
                         </div>
                     </div>
 
 
-                    <div id="someProductDiv" class="col-12 blackBlue   someProductDiv pb-5">
-                        <div class="row pb-3 pt-2">
+                    <div id="someProductDiv" class="col-lg-10 col-md-12   someProductDiv pb-1">
+                        <div class="row pb-1 pt-2">
                             <div class="col-12">
                                 <div class="row">
-                                    <div class="col-lg-4 offset-lg-4 text-center  py-5 ">
-                                        <h1 class="text-white fw-bold divHeaderText">Products</h1>
+                                    <div class="col-lg-4 offset-lg-4 text-center  py-2 ">
+                                        <h1 class="text-white fw-bold divHeaderText">Admin Panel</h1>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12  pb-5">
-                                <div class="row pt-2">
-                                    <?php
-                                    for ($i = 0; $i < 8; $i++) {
-                                        # code...
-                                    ?>
-                                        <div class="col-lg-3 col-6  py-lg-4 py-4 productHolderContainerDiv">
+                            <div id="highDemandProductDiv" class="col-12 darkBlue py-5">
 
-                                            <div class="row">
+                                <section id="demos">
+                                    <div class="row">
+                                        <div class="large-12 columns">
+                                            <div class="owl-carousel  owl-theme abc2      row ">
 
-                                                <div class="col-lg-12 col-12    px-lg-4 px-3">
+
+
+                                                <div class="item owlCaroItem  ">
                                                     <div class="row">
-                                                        <div style="position: relative;" class="col-lg-12 col-12 productDiv  productDivColor py-4 ">
-                                                            <div class="wishListAbsoluteDiv text-center">
-                                                                <img src="../icons/wishlist.png" alt="" srcset="">
-                                                            </div>
-                                                            <div class="searchIconAbsoluteDiv text-center">
-                                                                <img src="../icons/search.png" alt="" srcset="">
-                                                            </div>
+                                                        <div class="col-lg-12 offset-lg-0 col-8 offset-2   ">
                                                             <div class="row">
-
-                                                                <div class="col-12 text-center px-lg-4 px-1  py-3">
-                                                                    <img class="productImage " src="../images/product.png" alt="">
-                                                                </div>
-                                                                <div class="col-12 offset-0 text-center">
+                                                                <div class="col-12 px-3 productDiv  py-4">
                                                                     <div class="row">
-                                                                        <div class="col-12 py-1 text-center">
-                                                                            <h4 class="fw-bold">Product 1</h4>
+                                                                        <div class="col-12 text-center px-lg-5 px-5  py-5">
+                                                                            <img class="productImageOwl1" src="../icons/person_success.png" alt="">
                                                                         </div>
-                                                                        <div class="col-12 py-1 text-center">
-                                                                            <span class="fa fa-star checked"></span>
-                                                                            <span class="fa fa-star checked"></span>
-                                                                            <span class="fa fa-star checked"></span>
-                                                                            <span class="fa fa-star"></span>
-                                                                            <span class="fa fa-star"></span>
-                                                                        </div>
-                                                                        <div class="col-12 py-1 ">
-                                                                            <span>360$</span>
-                                                                        </div>
-                                                                        <div class="col-12 text-center py-2 px-md-5 px-3">
-                                                                            <button class="viewButton w-100 py-1">View</button>
-                                                                        </div>
-                                                                        <div class="col-12 text-center py-2 px-md-5 px-3">
-                                                                            <button class="cartButton w-100 py-1 ">Cart</button>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php
-                                    }
-                                    ?>
+                                                                        <div class="col-12 offset-0 text-center">
+                                                                            <div class="row">
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12">
+                                                                                            <h4 class="fw-bold">Top Seller</h4>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <h6>RagORN Osborn</h6>
+                                                                                        </div>
+                                                                                    </div>
 
+                                                                                </div>
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Sold Products</span></div>
+                                                                                        <div class="col-12"><span>25 Products</span></div>
+                                                                                    </div>
 
-                                </div>
-                            </div>
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Earned</span></div>
+                                                                                        <div class="col-12"><span>100,000 $</span></div>
+                                                                                    </div>
 
-                        </div>
-                    </div>
+                                                                                </div>
 
-                    <div id="highDemandProductDiv" class="col-12 darkBlue py-5">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="row">
-                                    <div class="col-lg-4 offset-lg-4 text-center  py-5 ">
-                                        <h1 class="text-white fw-bold divHeaderText">Products High Demand</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <section id="demos">
-                            <div class="row">
-                                <div class="large-12 columns">
-                                    <div class="owl-carousel abc2 owl-theme row ">
-                                        <?php
-                                        for ($i = 0; $i < 10; $i++) {
-                                        ?>
-                                            <div class="item owlCaroItem col-12 blackBlue">
-                                                <div class="row">
-                                                    <div class="col-lg-12 offset-lg-0 col-8 offset-2   ">
-                                                        <div class="row">
-                                                            <div class="col-12 px-3 productDiv  py-4">
-                                                                <div class="row">
-                                                                    <div class="col-12 text-center px-lg-5 px-5  py-3">
-                                                                        <img class="productImageOwl1 " src="../images/product.png" alt="">
-                                                                    </div>
-                                                                    <div class="col-12 offset-0 text-center">
-                                                                        <div class="row">
-                                                                            <div class="col-12 py-1 text-center">
-                                                                                <h4 class="fw-bold">Product 1</h4>
-                                                                            </div>
-                                                                            <div class="col-12 py-1 text-center">
-                                                                                <span class="fa fa-star checked"></span>
-                                                                                <span class="fa fa-star checked"></span>
-                                                                                <span class="fa fa-star checked"></span>
-                                                                                <span class="fa fa-star"></span>
-                                                                                <span class="fa fa-star"></span>
-                                                                            </div>
-                                                                            <div class="col-12 py-1 ">
-                                                                                <span>360$</span>
-                                                                            </div>
-                                                                            <div class="col-12 text-center py-2 px-5">
-                                                                                <button class="viewButton w-100 py-1">View</button>
-                                                                            </div>
-                                                                            <div class="col-12 text-center py-2 px-5">
-                                                                                <button class="cartButton w-100 py-1 ">Cart</button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -206,151 +124,52 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                 </div>
-
-                                            </div>
-                                        <?php
-                                        }
-                                        ?>
-
-
-                                    </div>
-
-                                    <script src="../sliderResources/downScript1.js"></script>
-                                    <script src="../sliderResources/downScript2.js"></script>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div id="newArrivalsProductDiv" class="col-12  blackBlue   py-5">
-                        <div class="row">
-                            <div class="col-12 py-3 text-center">
-                                <div class="row">
-                                    <div class="col-6 offset-3">
-                                        <h1 class="text-white fw-bold divHeaderText">New Arrivals</h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12  px-5">
-                                <div class="row g-5">
-                                    <?php
-                                    for ($i = 0; $i < 3; $i++) {
-                                        # code...
-                                    ?>
-                                        <div class=" col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-10 offset-1  newArrivalDivContainer">
-                                            <div class="row">
-                                                <div class="col-12 px-lg-4 px-md-3 px-1 rounded ">
+                                                <div class="item owlCaroItem  ">
                                                     <div class="row">
-                                                        <div class="col-12  px-lg-5 px-md-3 px-1 pt-3 darkBlue">
-                                                            <h2>Streaming</h2>
-                                                        </div>
-                                                        <div class="col-12  newArrivalsImagesDiv darkBlue">
+                                                        <div class="col-lg-12 offset-lg-0 col-8 offset-2   ">
                                                             <div class="row">
-                                                                <div class="col-6 py-3 text-center ">
-                                                                    <img src="../images/inkCartridge.jpg" alt="" srcset="">
-                                                                </div>
-                                                                <div class="col-6 py-3 text-center">
-                                                                    <img src="../images/headphone.jpg" alt="" srcset="">
-                                                                </div>
-                                                                <div class="col-6 py-3 text-center">
-                                                                    <img src="../images/cableJack.jpg" alt="" srcset="">
-                                                                </div>
-                                                                <div class="col-6 py-3 text-center">
-                                                                    <img src="../images/streamingStick.jpg" alt="" srcset="">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                                <div class="col-12 px-3 productDiv  py-4">
+                                                                    <div class="row">
+                                                                        <div class="col-12 text-center px-lg-5 px-5  py-5">
+                                                                            <img class="productImageOwl1" src="../icons/person_success.png" alt="">
+                                                                        </div>
+                                                                        <div class="col-12 offset-0 text-center">
+                                                                            <div class="row">
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12">
+                                                                                            <h4 class="fw-bold">Top Seller of the month</h4>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <h6>RagORN Osborn</h6>
+                                                                                        </div>
+                                                                                    </div>
 
-                                        </div>
-                                    <?php
-                                    }
-                                    ?>
+                                                                                </div>
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Sold Products</span></div>
+                                                                                        <div class="col-12"><span>25 Products</span></div>
+                                                                                    </div>
 
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Earned</span></div>
+                                                                                        <div class="col-12"><span>100,000 $</span></div>
+                                                                                    </div>
 
-                                </div>
+                                                                                </div>
 
-                            </div>
-                        </div>
-                    </div>
-                    <div id="specialProductDiv" class="col-12 specialProductDiv  darkBlue">
-                        <div class="row my-auto">
-                            <div class="specialProductBgImageDiv d-none  col-12 text-center text-lg-end px-0 ">
-                                <img src="../images/pyor.webp" class="specialProductImage" alt="">
-                            </div>
-                            <div class="col-12 py-5 px-4 px-lg-3  specialProductDetailsDiv">
-
-                                <div class="row">
-                                    <div class="col-lg-8 offset-lg-2 col-12 offset-0 ">
-                                        <div class=" text-center">
-                                            <div class="col-6 offset-3">
-                                                <h1 class="divHeaderText fw-bold">Special product of the week</h1>
-                                            </div>
-
-                                        </div>
-                                        <div class=" px-4  py-md-4 py-2 py-sm-2 specialProductParaDiv">
-                                            <p class="fw-bold"> - This pre-owned product is not Apple certified, but has been professionally inspected, tested and cleaned by Amazon-qualified suppliers.</p>
-                                            <p class="fw-bold"> - There will be no visible cosmetic imperfections when held at an arm’s length.</p>
-                                            <p class="fw-bold"> - This product will have a battery which exceeds 80% capacity relative to new.</p>
-                                            <p class="fw-bold"> - Accessories may not be original, but will be compatible and fully functional. Product may come in generic Box.</p>
-                                        </div>
-                                        <div class=" py-md-4 py-2 py-sm-2 text-center">
-                                            <button class="py-lg-3 py-md-2 px-lg-5 px-md-3 px-4 py-2  checkoutBtn">Checkout</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div id="hotNewProductDiv" style="z-index: 40;" class="col-12  blackBlue  py-5">
-                        <div class="row">
-                            <div class="col-6 offset-3">
-                                <div class="row">
-                                    <div class="col-12 text-center py-5">
-                                        <h1 class="divHeaderText fw-bold">Hot new releases</h1>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <section id="demos">
-                            <div class="row pb-5">
-                                <div class="large-12 columns">
-                                    <div class="owl-carousel owlcaro2 owl-theme row ">
-                                        <?php
-                                        for ($i = 0; $i < 10; $i++) {
-                                        ?>
-                                            <div class="item owlCaroItem col-12 darkBlue">
-                                                <div class="row">
-                                                    <div class="col-lg-12 offset-lg-0 col-8 offset-2   ">
-                                                        <div class="row">
-                                                            <div class="col-12 px-3 productDiv  py-4">
-                                                                <div class="row">
-                                                                    <div class="col-12 text-center px-lg-5 px-md-3 px-sm-3 px-5  py-3">
-                                                                        <img class="productImageOwl1" src="../images/product.png" alt="">
-                                                                    </div>
-                                                                    <div class="col-12 offset-0 text-center">
-                                                                        <div class="row">
-                                                                            <div class="col-12 py-1 text-center">
-                                                                                <h4 class="fw-bold">Product 1</h4>
-                                                                            </div>
-                                                                            <div class="col-12 py-1 text-center">
-                                                                                <span class="fa fa-star checked"></span>
-                                                                                <span class="fa fa-star checked"></span>
-                                                                                <span class="fa fa-star checked"></span>
-                                                                                <span class="fa fa-star"></span>
-                                                                                <span class="fa fa-star"></span>
-                                                                            </div>
-                                                                            <div class="col-12 py-1 ">
-                                                                                <span>360$</span>
-                                                                            </div>
-                                                                            <div class="col-12 text-center py-2 px-5">
-                                                                                <button class="viewButton w-100 py-1">View</button>
-                                                                            </div>
-                                                                            <div class="col-12 text-center py-2 px-5">
-                                                                                <button class="cartButton w-100 py-1 ">Cart</button>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -358,22 +177,357 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
                                                 </div>
+                                                <div class="item owlCaroItem  ">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 offset-lg-0 col-8 offset-2   ">
+                                                            <div class="row">
+                                                                <div class="col-12 px-3 productDiv  py-4">
+                                                                    <div class="row">
+                                                                        <div class="col-12 text-center px-lg-5 px-5  py-5">
+                                                                            <img class="productImageOwl1" src="../icons/productIcon.png" alt="">
+                                                                        </div>
+                                                                        <div class="col-12 offset-0 text-center">
+                                                                            <div class="row">
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12">
+                                                                                            <h4 class="fw-bold">Top Product</h4>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <h6>Rag Product</h6>
+                                                                                        </div>
+                                                                                    </div>
 
+                                                                                </div>
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Sold Products</span></div>
+                                                                                        <div class="col-12"><span>150 Products</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Earned</span></div>
+                                                                                        <div class="col-12"><span>156,000 $</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="item owlCaroItem  ">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 offset-lg-0 col-8 offset-2   ">
+                                                            <div class="row">
+                                                                <div class="col-12 px-3 productDiv  py-4">
+                                                                    <div class="row">
+                                                                        <div class="col-12 text-center px-lg-5 px-5  py-5">
+                                                                            <img class="productImageOwl1" src="../icons/productIcon.png" alt="">
+                                                                        </div>
+                                                                        <div class="col-12 offset-0 text-center">
+                                                                            <div class="row">
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12">
+                                                                                            <h4 class="fw-bold">Top Product of the Month</h4>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <h6>Rag Product</h6>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star checked"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                    <span class="fa fa-star"></span>
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Sold Products</span></div>
+                                                                                        <div class="col-12"><span>150 Products</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Earned</span></div>
+                                                                                        <div class="col-12"><span>156,000 $</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="item owlCaroItem  owlCaroItem2 col-12   ">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 offset-lg-0 col-8 offset-2  h-100 ">
+                                                            <div class="row">
+                                                                <div class="col-12 px-3 productDiv  py-4">
+                                                                    <div class="row">
+                                                                        <div class="col-12 text-center px-lg-5 px-5  py-5">
+                                                                            <img class="productImageOwl1" src="../icons/money.png" alt="">
+                                                                        </div>
+                                                                        <div class="col-12 offset-0 text-center">
+                                                                            <div class="row">
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12">
+                                                                                            <h4 class="fw-bold">Today's Total Earnings</h4>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <h6>State of Earning : Whale</h6>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Sold Products</span></div>
+                                                                                        <div class="col-12"><span>800 Products</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Earned</span></div>
+                                                                                        <div class="col-12"><span>2,000,000 $</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="item owlCaroItem col-12 ">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 offset-lg-0 col-8 offset-2  h-100 ">
+                                                            <div class="row">
+                                                                <div class="col-12 px-3 productDiv  py-4">
+                                                                    <div class="row">
+                                                                        <div class="col-12 text-center px-lg-5 px-5  py-5">
+                                                                            <img class="productImageOwl1" src="../icons/money.png" alt="">
+                                                                        </div>
+                                                                        <div class="col-12 offset-0 text-center">
+                                                                            <div class="row">
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12">
+                                                                                            <h4 class="fw-bold">Today's Total Earnings of the Month</h4>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <h6></h6>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Sold Products</span></div>
+                                                                                        <div class="col-12"><span>10,000 Products</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Earned</span></div>
+                                                                                        <div class="col-12"><span>2,000,000.000 $</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="item owlCaroItem  ">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 offset-lg-0 col-8 offset-2   ">
+                                                            <div class="row">
+                                                                <div class="col-12 px-3 productDiv  py-4">
+                                                                    <div class="row">
+
+                                                                        <div class="col-12 offset-0 text-center">
+                                                                            <div class="row">
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12">
+                                                                                            <h4 class="fw-bold">Select Date Periods</h4>
+                                                                                        </div>
+                                                                                        <div class="col-12">
+                                                                                            <div class="row">
+                                                                                                <div class="col-12 py-2">
+                                                                                                    <input type="date" name="" id="fd" class="py-1 px-1 ">
+                                                                                                </div>
+                                                                                                <div class="col-12 py-2"><input type="date" name="" id="td" class="py-1 px-1"></div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="col-12 py-1 text-center">
+                                                                                    <button class="px-2 py-1 checkoutBtn ">Results</button>
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Sold Products</span></div>
+                                                                                        <div class="col-12"><span>150 Products</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                                <div class="col-12 py-1 ">
+                                                                                    <div class="row">
+                                                                                        <div class="col-12"><span>Earned</span></div>
+                                                                                        <div class="col-12"><span>156,000 $</span></div>
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                             </div>
-                                        <?php
-                                        }
-                                        ?>
 
-
+                                            <script src="../sliderResources/downScript1.js"></script>
+                                            <script src="downscript2.js"></script>
+                                        </div>
                                     </div>
+                                </section>
+                            </div>
 
-                                    <script src="../sliderResources/downScript1.js"></script>
-                                    <script src="../sliderResources/downScript2.js"></script>
+                        </div>
+                    </div>
+
+                    <div class="col-12 py-2 blackBlue">
+                        <div class="row">
+                            <div class="col-lg-3 offset-lg-0 col-md-6 offset-md-3 col-10 offset-1">
+                                <div class="row">
+                                    <div class="col-12"><span>Add a Brand</span></div>
+                                    <div class="col-12"><input class="py-1 px-1 w-100" type="text"></div>
+                                    <div class="col-12 py-3"><button class="checkoutBtn">Add Brand</button></div>
+                                    <div class="col-12 py-3">
+                                        <span>Available Brands</span>
+                                        <select name="" id="" class=" py-2 w-100">
+                                            <option value="">Apple</option>
+                                            <option value="">Samsung</option>
+                                            <option value="">Sony</option>
+                                            <option value="">LG</option>
+                                            <option value="">GoPro</option>
+                                            <option value="">Dell</option>
+                                            <option value="">Lenovo</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
-                        </section>
+                            <div class="col-lg-3 offset-lg-0 col-md-6 offset-md-3 col-10 offset-1">
+                                <div class="row">
+                                    <div class="col-12"><span>Add a Category</span></div>
+                                    <div class="col-12"><input class="py-1 px-1 w-100" type="text"></div>
+                                    <div class="col-12 py-3"><button class="checkoutBtn">Add Category</button></div>
+                                    <div class="col-12 py-3">
+                                        <span>Available Categories</span>
+                                        <select name="" id="" class=" py-2 w-100">
+                                            <option value="">Category</option>
+                                            <option value="">Computer</option>
+                                            <option value="">Laptops</option>
+                                            <option value="">SmartPhones</option>
+                                            <option value="">Other Electronic Devices</option>
+                                            <option value="">Computer Accesories</option>
+                                            <option value="">Smartphone Accessories</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 offset-lg-0 col-md-6 offset-md-3 col-10 offset-1">
+                                <div class="row">
+                                    <div class="col-12"><span>Add a Color</span></div>
+                                    <div class="col-12"><input class="py-1 px-1 w-100" type="text"></div>
+                                    <div class="col-12 py-3"><button class="checkoutBtn">Add Color</button></div>
+                                    <div class="col-12 py-3">
+                                        <span>Available Colors</span>
+                                        <select name="" id="" class=" py-2 w-100">
+                                            <option value="">Red</option>
+                                            <option value="">Black</option>
+                                            <option value="">Grey</option>
+                                            <option value="">White</option>
+                                            <option value="">Dark Blue</option>
+                                            <option value="">Light Pink</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 offset-lg-0 col-md-6 offset-md-3 col-10 offset-1">
+                                <div class="row">
+                                    <div class="col-12"><span>Add a Model</span></div>
+                                    <div class="col-12"><input class="py-1 px-1 w-100" type="text"></div>
+                                    <div class="col-12 py-3"><button class="checkoutBtn">Add Model</button></div>
+                                    <div class="col-12 py-3">
+                                        <span>Available Colors</span>
+                                        <select name="" id="" class=" py-2 w-100">
+                                            <option value="">Model 1 </option>
+                                            <option value="">Model 2</option>
+                                            <option value="">Model 3</option>
+                                            <option value="">Model 4</option>
+                                            <option value="">Model 5</option>
+                                            <option value="">Model 6</option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                    <div class="col-12 py-4 darkBlue text-center">
+                        <a href="../homepage/homepage.php" class="px-2 py-2 checkoutBtn text-decoration-none text-white">Visit Home Page</a>
+                    </div>
+
 
 
                 </div>
